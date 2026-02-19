@@ -28,15 +28,11 @@ RUN sed -i 's/^# *\(es_ES.UTF-8\)/\1/' /etc/locale.gen \
   # Generate locale
   && locale-gen
 
-# Download the Project Zomboid dedicated server app using the steamcmd app
-# Set the entry point file permissions
+# Prepare the server install directory.
+# The actual SteamCMD install/update is handled at runtime in entry.sh.
 RUN set -x \
   && mkdir -p "${STEAMAPPDIR}" \
-  && chown -R "${USER}:${USER}" "${STEAMAPPDIR}" \
-  && bash "${STEAMCMDDIR}/steamcmd.sh" +force_install_dir "${STEAMAPPDIR}" \
-  +login anonymous \
-  +app_update "${STEAMAPPID}" -beta "${STEAMAPPBRANCH}" validate \
-  +quit
+  && chown -R "${USER}:${USER}" "${STEAMAPPDIR}"
 
 # Copy the entry point file
 COPY --chown=${USER}:${USER} scripts/entry.sh /server/scripts/entry.sh

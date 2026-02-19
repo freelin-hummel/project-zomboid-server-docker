@@ -57,6 +57,24 @@ echo "*** INFO: Runtime configuration dump end ***"
 
 self_managed_mods_normalized="$(echo "${SELF_MANAGED_MODS}" | tr -d "'[:space:]" | tr '[:upper:]' '[:lower:]')"
 
+steamcmd_update_server() {
+  local branch
+  branch="$(echo "${STEAMAPPBRANCH}" | tr -d "'[:space:]")"
+
+  if [ -n "${branch}" ] && [ "${branch}" != "public" ]; then
+    echo "*** INFO: Updating/installing server with branch '${branch}' ***"
+    if bash "${STEAMCMDDIR}/steamcmd.sh" +force_install_dir "${STEAMAPPDIR}" +login anonymous +app_update "${STEAMAPPID}" -beta "${branch}" validate +quit; then
+      return 0
+    fi
+
+    echo "*** WARN: Branch update failed, retrying without -beta ***"
+  else
+    echo "*** INFO: Updating/installing server with default public branch ***"
+  fi
+
+  bash "${STEAMCMDDIR}/steamcmd.sh" +force_install_dir "${STEAMAPPDIR}" +login anonymous +app_update "${STEAMAPPID}" validate +quit
+}
+
 #####################################
 #                                   #
 # Force an update if the env is set #
@@ -71,7 +89,12 @@ fi
 
 if [ "${FORCEUPDATE}" == "1" ] || [ "${FORCEUPDATE,,}" == "true" ]; then
   echo "FORCEUPDATE variable is set, so the server will be updated right now"
-  bash "${STEAMCMDDIR}/steamcmd.sh" +force_install_dir "${STEAMAPPDIR}" +login anonymous +app_update "${STEAMAPPID}" -beta "${STEAMAPPBRANCH}" validate +quit
+  steamcmd_update_server
+fi
+
+if [ ! -x "${STEAMAPPDIR}/start-server.sh" ]; then
+  echo "*** INFO: start-server.sh not found. Installing server files now. ***"
+  steamcmd_update_server
 fi
 
 
