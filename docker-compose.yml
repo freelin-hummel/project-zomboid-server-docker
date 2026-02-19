@@ -13,20 +13,6 @@ services:
       - "27015:27015/tcp"
     volumes:
       # Server data
-      - pz_data:/home/steam/Zomboid
+      - ./data:/home/steam/Zomboid
       # Workshop mods folder
-      - pz_workshop:/home/steam/pz-dedicated/steamapps/workshop
-
-volumes:
-  pz_data:
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: ${DATA_HOST_PATH:-./data}
-  pz_workshop:
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: ${WORKSHOP_HOST_PATH:-./workshop-mods}
+      - ./workshop-mods:/home/steam/pz-dedicated/steamapps/workshop
