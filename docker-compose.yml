@@ -32,8 +32,8 @@ services:
       - PUBLIC=${PUBLIC:-}
       - DISPLAYNAME=${DISPLAYNAME:-}
       - SELF_MANAGED_MODS=${SELF_MANAGED_MODS:-true}
-      - MOD_IDS=${MOD_IDS:-}
-      - WORKSHOP_IDS=${WORKSHOP_IDS:-}
+      - MOD_IDS=${MOD_IDS-}
+      - WORKSHOP_IDS=${WORKSHOP_IDS-}
     ports:
       - "8766:8766/udp"
       - "8767:8767/udp"
