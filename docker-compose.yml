@@ -31,7 +31,7 @@ services:
       - RCONPASSWORD=${RCONPASSWORD:-}
       - PUBLIC=${PUBLIC:-}
       - DISPLAYNAME=${DISPLAYNAME:-}
-      - SELF_MANAGED_MODS=${SELF_MANAGED_MODS:-true}
+      - SELF_MANAGED_MODS='${SELF_MANAGED_MODS:-true}'
       - MOD_IDS=${MOD_IDS-}
       - WORKSHOP_IDS=${WORKSHOP_IDS-}
     ports:
