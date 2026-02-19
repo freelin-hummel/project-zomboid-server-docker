@@ -13,6 +13,6 @@ services:
       - "27015:27015/tcp"
     volumes:
       # Server data
-      - ${DATA_HOST_PATH:-./data}:${CACHEDIR:-/home/steam/Zomboid}
+      - ./data:/home/steam/Zomboid
       # Workshop mods folder
-      - ${WORKSHOP_HOST_PATH:-./workshop-mods}:/home/steam/pz-dedicated/steamapps/workshop
+      - ./workshop-mods:/home/steam/pz-dedicated/steamapps/workshop
