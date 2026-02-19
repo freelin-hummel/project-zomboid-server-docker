@@ -3,8 +3,37 @@ services:
   ProjectZomboidDedicatedServer:
     image: danixu86/project-zomboid-dedicated-server:${STEAMAPPBRANCH:-42.13.2-unstable}
     restart: unless-stopped
-    env_file:
-      - .env
+    environment:
+      - STEAMAPPBRANCH=${STEAMAPPBRANCH:-42.13.2-unstable}
+      - FORCEUPDATE=${FORCEUPDATE:-false}
+      - FORCESTEAMCLIENTSOUPDATE=${FORCESTEAMCLIENTSOUPDATE:-false}
+      - LANG=${LANG:-en_EN.UTF-8}
+      - NOSTEAM=${NOSTEAM:-false}
+      - CACHEDIR=${CACHEDIR:-}
+      - MODFOLDERS=${MODFOLDERS:-workshop,steam,mods}
+      - DEBUG=${DEBUG:-false}
+      - ADMINUSERNAME=${ADMINUSERNAME:-admin}
+      - ADMINPASSWORD=${ADMINPASSWORD:-}
+      - SERVERNAME=${SERVERNAME:-servertest}
+      - SERVERPRESET=${SERVERPRESET:-}
+      - SERVERPRESETREPLACE=${SERVERPRESETREPLACE:-false}
+      - COOP=${COOP:-false}
+      - IP=${IP:-}
+      - PORT=${PORT:-16261}
+      - STEAMVAC=${STEAMVAC:-true}
+      - STEAMPORT1=${STEAMPORT1:-}
+      - STEAMPORT2=${STEAMPORT2:-}
+      - MIN_MEMORY=${MIN_MEMORY:-}
+      - MAX_MEMORY=${MAX_MEMORY:-}
+      - MEMORY=${MEMORY:-2048m}
+      - SOFTRESET=${SOFTRESET:-false}
+      - PASSWORD=${PASSWORD:-}
+      - RCONPASSWORD=${RCONPASSWORD:-}
+      - PUBLIC=${PUBLIC:-}
+      - DISPLAYNAME=${DISPLAYNAME:-}
+      - SELF_MANAGED_MODS=${SELF_MANAGED_MODS:-true}
+      - MOD_IDS=${MOD_IDS:-}
+      - WORKSHOP_IDS=${WORKSHOP_IDS:-}
     ports:
       - "8766:8766/udp"
       - "8767:8767/udp"
