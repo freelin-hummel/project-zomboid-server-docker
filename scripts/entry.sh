@@ -2,6 +2,61 @@
 
 cd ${STEAMAPPDIR}
 
+print_env_var() {
+  local name="$1"
+  local value="${!name-}"
+  if [ -z "${value}" ]; then
+    echo "*** INFO: ${name}=<empty> ***"
+  else
+    echo "*** INFO: ${name}=${value} ***"
+  fi
+}
+
+print_secret_var() {
+  local name="$1"
+  local value="${!name-}"
+  if [ -z "${value}" ]; then
+    echo "*** INFO: ${name}=<empty> ***"
+  else
+    echo "*** INFO: ${name}=<set:${#value}> ***"
+  fi
+}
+
+echo "*** INFO: Runtime configuration dump start ***"
+print_env_var "STEAMAPPBRANCH"
+print_env_var "FORCEUPDATE"
+print_env_var "FORCESTEAMCLIENTSOUPDATE"
+print_env_var "LANG"
+print_env_var "NOSTEAM"
+print_env_var "CACHEDIR"
+print_env_var "MODFOLDERS"
+print_env_var "DEBUG"
+print_env_var "ADMINUSERNAME"
+print_secret_var "ADMINPASSWORD"
+print_env_var "SERVERNAME"
+print_env_var "SERVERPRESET"
+print_env_var "SERVERPRESETREPLACE"
+print_env_var "COOP"
+print_env_var "IP"
+print_env_var "PORT"
+print_env_var "STEAMVAC"
+print_env_var "STEAMPORT1"
+print_env_var "STEAMPORT2"
+print_env_var "MIN_MEMORY"
+print_env_var "MAX_MEMORY"
+print_env_var "MEMORY"
+print_env_var "SOFTRESET"
+print_secret_var "PASSWORD"
+print_secret_var "RCONPASSWORD"
+print_env_var "PUBLIC"
+print_env_var "DISPLAYNAME"
+print_env_var "SELF_MANAGED_MODS"
+print_env_var "MOD_IDS"
+print_env_var "WORKSHOP_IDS"
+echo "*** INFO: Runtime configuration dump end ***"
+
+self_managed_mods_normalized="$(echo "${SELF_MANAGED_MODS}" | tr -d "'[:space:]" | tr '[:upper:]' '[:lower:]')"
+
 #####################################
 #                                   #
 # Force an update if the env is set #
@@ -166,7 +221,9 @@ if [ -n "${DISPLAYNAME}" ]; then
   sed -i "s/^PublicName=.*/PublicName=${DISPLAYNAME}/" "${HOMEDIR}/Zomboid/Server/${SERVERNAME}.ini"
 fi
 
-if [ "${SELF_MANAGED_MODS}" == "1" ] || [ "${SELF_MANAGED_MODS,,}" == "true" ]; then
+echo "*** INFO: SELF_MANAGED_MODS normalized='${self_managed_mods_normalized}' ***"
+
+if [ "${self_managed_mods_normalized}" == "1" ] || [ "${self_managed_mods_normalized}" == "true" ]; then
   echo "*** INFO: SELF_MANAGED_MODS is set; leaving Mods and WorkshopItems untouched ***"
 else
   if [ -n "${MOD_IDS}" ]; then
@@ -189,9 +246,14 @@ sed -i 's/\r$//' /server/scripts/search_folder.sh
 if [ -e "${HOMEDIR}/pz-dedicated/steamapps/workshop/content/108600" ]; then
 
   map_list=""
+  map_list_file="${HOMEDIR}/maps.txt"
+  rm -f "${map_list_file}"
   source /server/scripts/search_folder.sh "${HOMEDIR}/pz-dedicated/steamapps/workshop/content/108600"
-  map_list=$(<"${HOMEDIR}/maps.txt")  
-  rm "${HOMEDIR}/maps.txt"
+
+  if [ -f "${map_list_file}" ]; then
+    map_list=$(<"${map_list_file}")
+    rm -f "${map_list_file}"
+  fi
 
   if [ -n "${map_list}" ]; then
     echo "*** INFO: Added maps including ${map_list} ***"
