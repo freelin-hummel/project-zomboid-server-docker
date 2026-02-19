@@ -1,14 +1,8 @@
 version: "3.7"
 services:
   ProjectZomboidDedicatedServer:
-    image: danixu86/project-zomboid-dedicated-server:latest
+    image: danixu86/project-zomboid-dedicated-server:${STEAMAPPBRANCH}
     restart: unless-stopped
-    build:
-      context: .
-      dockerfile: Dockerfile
-      args:
-        # Reads STEAMAPPBRANCH from your .env file to set the build version (ARG).
-        - STEAMAPPBRANCH=${STEAMAPPBRANCH}
     env_file:
       - .env
     ports:
