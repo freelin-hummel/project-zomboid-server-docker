@@ -1,10 +1,11 @@
 version: "3.7"
 services:
   ProjectZomboidDedicatedServer:
-    image: danixu86/project-zomboid-dedicated-server:${STEAMAPPBRANCH:-42.13.2-unstable}
+    image: danixu86/project-zomboid-dedicated-server:${IMAGE_TAG:-42.13.2-unstable}
     restart: unless-stopped
     environment:
-      - STEAMAPPBRANCH=${STEAMAPPBRANCH:-42.13.2-unstable}
+      - IMAGE_TAG=${IMAGE_TAG:-42.13.2-unstable}
+      - STEAMAPPBRANCH=${STEAMAPPBRANCH:-unstable}
       - FORCEUPDATE=${FORCEUPDATE:-false}
       - FORCESTEAMCLIENTSOUPDATE=${FORCESTEAMCLIENTSOUPDATE:-false}
       - LANG=${LANG:-en_EN.UTF-8}
