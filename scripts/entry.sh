@@ -61,9 +61,12 @@ steamcmd_update_server() {
   local branch
   branch="$(echo "${STEAMAPPBRANCH}" | tr -d "'[:space:]")"
 
+  mkdir -p "${STEAMAPPDIR}"
+  chown -R "${USER}:${USER}" "${STEAMAPPDIR}"
+
   if [ -n "${branch}" ] && [ "${branch}" != "public" ]; then
     echo "*** INFO: Updating/installing server with branch '${branch}' ***"
-    if bash "${STEAMCMDDIR}/steamcmd.sh" +force_install_dir "${STEAMAPPDIR}" +login anonymous +app_update "${STEAMAPPID}" -beta "${branch}" validate +quit; then
+    if su - steam -c "bash \"${STEAMCMDDIR}/steamcmd.sh\" +force_install_dir \"${STEAMAPPDIR}\" +login anonymous +app_update \"${STEAMAPPID}\" -beta \"${branch}\" validate +quit"; then
       return 0
     fi
 
@@ -72,7 +75,7 @@ steamcmd_update_server() {
     echo "*** INFO: Updating/installing server with default public branch ***"
   fi
 
-  bash "${STEAMCMDDIR}/steamcmd.sh" +force_install_dir "${STEAMAPPDIR}" +login anonymous +app_update "${STEAMAPPID}" validate +quit
+  su - steam -c "bash \"${STEAMCMDDIR}/steamcmd.sh\" +force_install_dir \"${STEAMAPPDIR}\" +login anonymous +app_update \"${STEAMAPPID}\" validate +quit"
 }
 
 #####################################
@@ -92,9 +95,17 @@ if [ "${FORCEUPDATE}" == "1" ] || [ "${FORCEUPDATE,,}" == "true" ]; then
   steamcmd_update_server
 fi
 
-if [ ! -x "${STEAMAPPDIR}/start-server.sh" ]; then
+if [ ! -f "${STEAMAPPDIR}/start-server.sh" ]; then
   echo "*** INFO: start-server.sh not found. Installing server files now. ***"
-  steamcmd_update_server
+  if ! steamcmd_update_server; then
+    echo "*** ERROR: Unable to install server files via SteamCMD. ***"
+    exit 1
+  fi
+fi
+
+if [ -f "${STEAMAPPDIR}/start-server.sh" ] && [ ! -x "${STEAMAPPDIR}/start-server.sh" ]; then
+  echo "*** INFO: start-server.sh exists but is not executable. Fixing permissions. ***"
+  chmod +x "${STEAMAPPDIR}/start-server.sh"
 fi
 
 
