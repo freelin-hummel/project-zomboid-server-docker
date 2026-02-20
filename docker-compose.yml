@@ -2,11 +2,6 @@ version: "3.7"
 services:
   ProjectZomboidDedicatedServer:
     image: danixu86/project-zomboid-dedicated-server:${STEAMAPPBRANCH:-42.13.2-unstable}
-    build:
-      context: .
-      dockerfile: Dockerfile
-      args:
-        - STEAMAPPBRANCH=${STEAMAPPBRANCH:-42.13.2-unstable}
     restart: unless-stopped
     environment:
       - STEAMAPPBRANCH=${STEAMAPPBRANCH:-42.13.2-unstable}
