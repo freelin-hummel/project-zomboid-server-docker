@@ -255,6 +255,19 @@ if [ -n "${DISPLAYNAME}" ]; then
   sed -i "s/^PublicName=.*/PublicName=${DISPLAYNAME}/" "${HOMEDIR}/Zomboid/Server/${SERVERNAME}.ini"
 fi
 
+# Use a shared server image from mounted data folder.
+# Host path: /root/zomboid/data/image.png
+# Container path: /home/steam/Zomboid/image.png
+if [ -f "${HOMEDIR}/Zomboid/image.png" ]; then
+  mkdir -p "${HOMEDIR}/Zomboid/Server"
+  cp -f "${HOMEDIR}/Zomboid/image.png" "${HOMEDIR}/Zomboid/Server/${SERVERNAME}.png"
+  chown 1000:1000 "${HOMEDIR}/Zomboid/Server/${SERVERNAME}.png"
+  chmod 644 "${HOMEDIR}/Zomboid/Server/${SERVERNAME}.png"
+  echo "*** INFO: Applied server image ${HOMEDIR}/Zomboid/Server/${SERVERNAME}.png from ${HOMEDIR}/Zomboid/image.png ***"
+else
+  echo "*** INFO: ${HOMEDIR}/Zomboid/image.png not found; keeping existing server image as-is ***"
+fi
+
 echo "*** INFO: SELF_MANAGED_MODS normalized='${self_managed_mods_normalized}' ***"
 
 if [ "${self_managed_mods_normalized}" == "1" ] || [ "${self_managed_mods_normalized}" == "true" ]; then
@@ -306,6 +319,58 @@ if [ -e "${HOMEDIR}/pz-dedicated/steamapps/workshop/content/108600" ]; then
         fi
     done
   fi 
+fi
+
+run_case_fixer_inline() {
+  local log_file="${HOMEDIR}/Zomboid/server-console.txt"
+  local workshop_root="${HOMEDIR}/pz-dedicated/steamapps/workshop/content/108600"
+  local marker="steamapps/workshop/content/108600/"
+
+  echo "*** INFO: Inline case fixer start ***"
+
+  if [ ! -f "${log_file}" ] || [ ! -d "${workshop_root}" ]; then
+    echo "*** INFO: Inline case fixer skipped (missing log or workshop root) ***"
+    return 0
+  fi
+
+  grep -i "FileNotFoundException" "${log_file}" \
+    | sed 's/.*FileNotFoundException: //' \
+    | sed 's/ (No such file.*//' \
+    | sort -u \
+    | while IFS= read -r wrong_path; do
+        wrong_path="$(echo "${wrong_path}" | tr -d '\r' | xargs)"
+        [ -z "${wrong_path}" ] && continue
+        [[ "${wrong_path}" != *"${marker}"* ]] && continue
+
+        relative_path="${wrong_path#*${marker}}"
+        workshop_id="${relative_path%%/*}"
+        file_name="$(basename "${wrong_path}")"
+        [ -z "${workshop_id}" ] && continue
+
+        search_base="${workshop_root}/${workshop_id}"
+        expected_full_path="${workshop_root}/${relative_path}"
+        [ -d "${search_base}" ] || continue
+
+        actual_full_path="$(find "${search_base}" -iname "${file_name}" -type f -print -quit)"
+        [ -n "${actual_full_path}" ] || continue
+        [ "${actual_full_path}" = "${expected_full_path}" ] && continue
+
+        mkdir -p "$(dirname "${expected_full_path}")"
+        if [ ! -e "${expected_full_path}" ] && [ ! -L "${expected_full_path}" ]; then
+          ln -s "${actual_full_path}" "${expected_full_path}"
+          echo "*** INFO: Inline case fixer linked ${expected_full_path} -> ${actual_full_path} ***"
+        fi
+      done
+
+  echo "*** INFO: Inline case fixer complete ***"
+}
+
+sed -i 's/\r$//' /server/scripts/fix_workshop_case.sh 2>/dev/null || true
+if [ -f /server/scripts/fix_workshop_case.sh ]; then
+  chmod +x /server/scripts/fix_workshop_case.sh
+  /server/scripts/fix_workshop_case.sh || echo "*** WARN: Case fixer encountered an error; continuing startup ***"
+else
+  run_case_fixer_inline
 fi
 
 # Fix to a bug in start-server.sh that causes to no preload a library:

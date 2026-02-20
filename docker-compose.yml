@@ -49,3 +49,4 @@ services:
       # Use scripts from this repo without rebuilding the image
       - /root/zomboid/scripts/entry.sh:/server/scripts/entry.sh:ro
       - /root/zomboid/scripts/search_folder.sh:/server/scripts/search_folder.sh:ro
+      - /root/zomboid/scripts/fix_workshop_case.sh:/server/scripts/fix_workshop_case.sh:ro
