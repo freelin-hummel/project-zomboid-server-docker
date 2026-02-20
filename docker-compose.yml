@@ -45,3 +45,6 @@ services:
       - /root/zomboid/data:/home/steam/Zomboid
       # Workshop mods folder
       - /root/zomboid/workshop-mods:/home/steam/pz-dedicated/steamapps/workshop
+      # Use scripts from this repo without rebuilding the image
+      - /root/zomboid/scripts/entry.sh:/server/scripts/entry.sh:ro
+      - /root/zomboid/scripts/search_folder.sh:/server/scripts/search_folder.sh:ro
