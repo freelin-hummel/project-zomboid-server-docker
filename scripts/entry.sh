@@ -367,7 +367,6 @@ run_case_fixer_inline() {
 
 sed -i 's/\r$//' /server/scripts/fix_workshop_case.sh 2>/dev/null || true
 if [ -f /server/scripts/fix_workshop_case.sh ]; then
-  chmod +x /server/scripts/fix_workshop_case.sh
   /server/scripts/fix_workshop_case.sh || echo "*** WARN: Case fixer encountered an error; continuing startup ***"
 else
   run_case_fixer_inline
