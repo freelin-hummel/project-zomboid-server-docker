@@ -10,43 +10,12 @@ services:
         # Reads STEAMAPPBRANCH from your .env file to set the build version (ARG).
         - STEAMAPPBRANCH=${STEAMAPPBRANCH}
     env_file:
-      - ${HOST_DATA_PATH}/.env
-    environment:
-      LANG: ${LANG:-}
-      STEAMAPPBRANCH: ${STEAMAPPBRANCH:-}
-      ADMINUSERNAME: ${ADMINUSERNAME:-}
-      ADMINPASSWORD: ${ADMINPASSWORD:-}
-      PASSWORD: ${PASSWORD:-}
-      RCONPASSWORD: ${RCONPASSWORD:-}
-      PUBLIC: ${PUBLIC:-}
-      DISPLAYNAME: ${DISPLAYNAME:-}
-      CACHEDIR: ${CACHEDIR:-}
-      DEBUG: ${DEBUG:-}
-      FORCEUPDATE: ${FORCEUPDATE:-}
-      FORCESTEAMCLIENTSOUPDATE: ${FORCESTEAMCLIENTSOUPDATE:-}
-      COOP: ${COOP:-}
-      NOSTEAM: ${NOSTEAM:-}
-      MIN_MEMORY: ${MIN_MEMORY:-}
-      MAX_MEMORY: ${MAX_MEMORY:-}
-      MEMORY: ${MEMORY:-}
-      MOD_IDS: ${MOD_IDS:-}
-      WORKSHOP_IDS: ${WORKSHOP_IDS:-}
-      SELF_MANAGED_MODS: ${SELF_MANAGED_MODS:-}
-      SERVERNAME: ${SERVERNAME:-}
-      SERVERPRESET: ${SERVERPRESET:-}
-      SERVERPRESETREPLACE: ${SERVERPRESETREPLACE:-}
-      SOFTRESET: ${SOFTRESET:-}
-      IP: ${IP:-}
-      PORT: ${PORT:-}
-      STEAMVAC: ${STEAMVAC:-}
-      STEAMPORT1: ${STEAMPORT1:-}
-      STEAMPORT2: ${STEAMPORT2:-}
+      - .env
     ports:
       - "16261:16261/udp"
       - "16262:16262/udp"
       - "27015:27015/tcp"
     volumes:
-      # Fallback runtime env source for platforms that don't inject env_file reliably
       - /data/zomboid/.env:/server/.env:ro
       # Server data
       - /data/zomboid/data:/home/steam/Zomboid
