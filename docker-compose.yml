@@ -29,7 +29,6 @@ services:
       MIN_MEMORY: ${MIN_MEMORY:-}
       MAX_MEMORY: ${MAX_MEMORY:-}
       MEMORY: ${MEMORY:-}
-      MODFOLDERS: ${MODFOLDERS:-}
       MOD_IDS: ${MOD_IDS:-}
       WORKSHOP_IDS: ${WORKSHOP_IDS:-}
       SELF_MANAGED_MODS: ${SELF_MANAGED_MODS:-}
