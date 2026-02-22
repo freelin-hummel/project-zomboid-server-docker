@@ -48,8 +48,8 @@ services:
       - "27015:27015/tcp"
     volumes:
       # Fallback runtime env source for platforms that don't inject env_file reliably
-      - ${HOST_DATA_PATH}/.env:/server/.env:ro
+      - /data/zomboid/.env:/server/.env:ro
       # Server data
-      - ${HOST_DATA_PATH}/data:/home/steam/Zomboid
+      - /data/zomboid/data:/home/steam/Zomboid
       # Workshop mods folder
-      - ${HOST_DATA_PATH}/workshop-mods:/home/steam/pz-dedicated/steamapps/workshop
+      - /data/zomboid/workshop-mods:/home/steam/pz-dedicated/steamapps/workshop
