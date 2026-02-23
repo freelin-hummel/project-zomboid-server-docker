@@ -1,5 +1,68 @@
 #!/bin/bash
 
+declare -A LOADED_MOD_IDS
+
+normalize_mod_id() {
+    local mod_id="$1"
+    mod_id="${mod_id%$'\r'}"
+    mod_id="${mod_id#${mod_id%%[![:space:]]*}}"
+    mod_id="${mod_id%${mod_id##*[![:space:]]}}"
+    mod_id="${mod_id#\\}"
+    mod_id=$(printf '%s' "$mod_id" | sed "s/\\\\'/'/g")
+    echo -n "$mod_id"
+}
+
+load_mod_ids_from_ini() {
+    local ini_file="$1"
+
+    if [ ! -f "$ini_file" ]; then
+        return
+    fi
+
+    local mods_line
+    mods_line=$(grep -m1 '^Mods=' "$ini_file" || true)
+    if [ -z "$mods_line" ]; then
+        return
+    fi
+
+    mods_line="${mods_line#Mods=}"
+    IFS=';' read -ra mod_tokens <<< "$mods_line"
+
+    for token in "${mod_tokens[@]}"; do
+        local normalized
+        normalized=$(normalize_mod_id "$token")
+        if [ -n "$normalized" ]; then
+            LOADED_MOD_IDS["$normalized"]=1
+        fi
+    done
+}
+
+mod_folder_is_loaded() {
+    local mod_folder="$1"
+
+    if [ ${#LOADED_MOD_IDS[@]} -eq 0 ]; then
+        return 0
+    fi
+
+    while IFS= read -r -d '' mod_info; do
+        local mod_id_line
+        local mod_id
+        mod_id_line=$(grep -m1 '^id=' "$mod_info" || true)
+        if [ -z "$mod_id_line" ]; then
+            continue
+        fi
+
+        mod_id="${mod_id_line#id=}"
+        mod_id=$(normalize_mod_id "$mod_id")
+
+        if [ -n "${LOADED_MOD_IDS[$mod_id]+x}" ]; then
+            return 0
+        fi
+    done < <(find "$mod_folder" -maxdepth 3 -type f -name 'mod.info' -print0)
+
+    return 1
+}
+
 # Function to recursively search for a folder name
 search_folder() {
     local search_dir="$1"
@@ -14,6 +77,10 @@ search_folder() {
             # Check if there is a "maps" folder within the "mods" directory
             if [ -d "$item/mods" ]; then
                 for mod_folder in "$item/mods"/*; do
+                    if ! mod_folder_is_loaded "$mod_folder"; then
+                        continue
+                    fi
+
                     if [ -d "$mod_folder/media/maps" ]; then
                 
                         # Copy maps to map folder
@@ -48,6 +115,11 @@ search_folder() {
 }
 
 parent_folder="$1"
+server_ini_file="$2"
+
+if [ -n "$server_ini_file" ]; then
+    load_mod_ids_from_ini "$server_ini_file"
+fi
 
 if [ ! -d "$parent_folder" ]; then
     exit 1
