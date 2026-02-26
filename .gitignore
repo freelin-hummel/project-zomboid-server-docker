@@ -1,0 +1,22 @@
+# Runtime/server data (persistent volumes)
+data/
+workshop-mods/
+
+# Dedicated server runtime/install artifacts
+dedicated/
+
+# Python/Lua caches and local tooling state
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+*.pyc
+
+# Logs and crash/runtime outputs
+*.log
+*.pid
+*.core
+
+# Environment/local editor files
+.env
+.env.*
+.vscode/

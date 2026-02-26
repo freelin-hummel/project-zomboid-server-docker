@@ -1,0 +1,47 @@
+services:
+    project-zomboid-ds-docker:
+        build:
+            context: /data/zomboid
+            dockerfile: Dockerfile
+        image: "project-zomboid-ds:local"
+        container_name: "project-zomboid-ds-docker"
+        pull_policy: never
+        restart: unless-stopped
+        entrypoint:
+            - "/bin/bash"
+            - "-c"
+            - "exec /bin/bash /home/steam/entrypoint.sh"
+        environment:
+            HOME: "/home/steam"
+            SERVER_NAME: "${SERVER_NAME:-mortland}"
+            SERVER_PROFILE: "${SERVER_PROFILE:-server}"
+            ADMIN_PASSWORD: "${ADMIN_PASSWORD:-mort}"
+            CONFIG_XMX: "${CONFIG_XMX:-8}"
+            RCON_PORT: "${RCON_PORT:-27015}"
+            RCON_PASSWORD: "${RCON_PASSWORD:-my_connection_passoword}"
+            RCON_HOST: "${RCON_HOST:-zomboid}"
+            STEAMAPPBRANCH: "${STEAMAPPBRANCH:-outdatedunstable}"
+            STEAMAPPID: "${STEAMAPPID:-380870}"
+            STEAMAPP: "${STEAMAPP:-project-zomboid}"
+            STEAMAPPDIR: "${STEAMAPPDIR:-/home/steam/project-zomboid-dedicated}"
+            WORKSHOP_APPID: "${WORKSHOP_APPID:-108600}"
+            STEAMCMD_BIN: "${STEAMCMD_BIN:-steamcmd}"
+            STEAM_LOGIN: "${STEAM_LOGIN:-anonymous}"
+            STEAMCMD_TIMEOUT_SECONDS: "${STEAMCMD_TIMEOUT_SECONDS:-1800}"
+            MOD_CATALOG: "/data/zomboid/init/mods.json"
+            INIT_PIPELINE: "${INIT_PIPELINE:-true}"
+            INIT_NO_DOWNLOAD: "${INIT_NO_DOWNLOAD:-false}"
+            INIT_NO_CLEANUP: "${INIT_NO_CLEANUP:-false}"
+        ports:
+            - "8766:8766/udp"
+            - "8767:8767/udp"
+            - "16261:16261/udp"
+            - "16262-16272:16262-16272"
+            - "27015:27015/tcp"
+        volumes:
+            - "/data/zomboid:/data/zomboid"
+            - "/data/zomboid/entrypoint.sh:/home/steam/entrypoint.sh:ro"
+            - "/data/zomboid/import-mods.yml:/home/steam/import-mods.yml"
+            - "/data/zomboid/dedicated:/home/steam/project-zomboid-dedicated"
+            - "/data/zomboid/data:/home/steam/Zomboid"
+            - "/data/zomboid/workshop-mods:/home/steam/.local/share/Steam/steamapps/workshop"
