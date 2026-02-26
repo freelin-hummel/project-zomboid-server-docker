@@ -1,0 +1,7409 @@
+{
+  "defaults": {
+    "enabled": true,
+    "importPolicy": {
+      "cleanImportedFromModsTxt": true,
+      "modsTxtIsImportOnly": true
+    }
+  },
+  "mods": [
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "damnlib",
+          "name": "that DAMN Library 0.9848b",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "that DAMN Library",
+      "workshopId": "3171167894"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "KATTAJ1_ClothesCore",
+          "name": "KATTAJ1 Clothes Core",
+          "pzversion": "42.13",
+          "requires": [
+            "42.12.0"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "KATTAJ1 Clothes Core",
+      "workshopId": "3470422050"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "NeatUI_Framework",
+          "name": "NeatUI_Framework",
+          "pzversion": "0",
+          "requires": [
+            "42.0.2"
+          ],
+          "versionMin": "42.0.2"
+        }
+      ],
+      "name": "NeatUI_Framework",
+      "workshopId": "3508537032"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Video_Game_Consoles",
+          "name": "Video Game Consoles",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Video Game Consoles",
+      "workshopId": "2831786301"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TrueMoozic",
+          "name": "True MooZic B42.13+ SP/MP",
+          "pzversion": "0",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        },
+        {
+          "enabled": true,
+          "id": "TMMumble",
+          "name": "True Moozic - Mumble Remover 42+ SP/MP",
+          "pzversion": "1",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "True MooZic B42.13+ SP/MP",
+      "workshopId": "3632610172"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SpnCharCustom",
+          "name": "Spongie's Character Customisation",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "2"
+        },
+        {
+          "enabled": true,
+          "id": "SPNCC",
+          "name": "Spongie's Character Customisation",
+          "pzversion": "0",
+          "requires": [
+            "42.13.1"
+          ],
+          "versionMin": "42.13.1"
+        },
+        {
+          "enabled": true,
+          "id": "SpnCharCustomDetails",
+          "name": "Spongie's Character Customisation - Details Pack",
+          "pzversion": "4",
+          "requires": [
+            "SpnCharCustom"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "SPNCCDetails",
+          "name": "Spongie's Character Customisation - Details Pack",
+          "pzversion": "5",
+          "requires": [
+            "SPNCC"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "SPNCCFaces",
+          "name": "Spongie's Character Customisation - Vanilla Faces Pack",
+          "pzversion": "1",
+          "requires": [
+            "SPNCC"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "SpnCharCustomFaces",
+          "name": "Spongie's Character Customisation - Vanilla Faces Pack",
+          "pzversion": "3",
+          "requires": [
+            "SpnCharCustom"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "SpnCharCustomDetailsHD",
+          "name": "Spongie's Character Customisation - Details Pack HD Textures",
+          "pzversion": "6",
+          "requires": [
+            "SpnCharCustomDetails"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "SPNCCDetailsHD",
+          "name": "Spongie's Character Customisation - Details Pack HD Textures",
+          "pzversion": "7",
+          "requires": [
+            "SPNCCDetails"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Spongie's Character Customisation",
+      "workshopId": "3414634809"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "GanydeBielovzki's Frockin Splendor! Vol.2",
+          "name": "Frockin Splendor! Vol.2",
+          "pzversion": "42",
+          "requires": [
+            "42"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Frockin Splendor! Vol.2",
+      "workshopId": "3411888105"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "vac_mod_b42_utils",
+          "name": "Vac's Mod Utils",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "vac_playing_utils",
+          "name": "Vac Playing Utils",
+          "pzversion": "1",
+          "requires": [
+            "vac_mod_b42_utils"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Vac's Mod Utils",
+      "workshopId": "3557515648"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "DynamicTradingCommon",
+          "name": "Dynamic Trading Common Library",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "DynamicTradingV2",
+          "name": "Dynamic Trading V2 (Alpha Testing)",
+          "pzversion": "1",
+          "requires": [
+            "DynamicTradingCommon"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "DynamicTrading",
+          "name": "Dynamic Trading V1",
+          "pzversion": "2",
+          "requires": [
+            "DynamicTradingCommon"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Dynamic Trading Common Library",
+      "workshopId": "3635333613"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "YAPZLib",
+          "name": "Yet Another PZ Library",
+          "pzversion": "0",
+          "requires": [
+            "42.00"
+          ],
+          "versionMin": "42.00"
+        }
+      ],
+      "name": "Yet Another PZ Library",
+      "workshopId": "3624971238"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Karas Zone Selector API",
+          "name": "Karas Zone Selector API",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Karas Zone Selector API",
+      "workshopId": "3653913180"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "FH",
+          "name": "Fluffy Hair",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Fluffy Hair",
+      "workshopId": "2447729538"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "tikitown_tiles",
+          "name": "Drazion's Tilepack",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Drazion's Tilepack",
+      "workshopId": "3046728955"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "StarlitLibrary",
+          "name": "Starlit Library",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "41.78.16"
+        }
+      ],
+      "name": "Starlit Library",
+      "workshopId": "3378285185"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Bandits2",
+          "name": "Bandits",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Bandits",
+      "workshopId": "3268487204"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SaucedCarts",
+          "name": "SaucedCarts - Pushable Carts",
+          "pzversion": "0",
+          "requires": [
+            "42.13.1"
+          ],
+          "versionMin": "42.13.1"
+        }
+      ],
+      "name": "SaucedCarts - Pushable Carts",
+      "workshopId": "3651954650"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Animal_Essentials",
+          "name": "Animal Essentials",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Animal Essentials",
+      "workshopId": "3640602763"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "BB_CommonSense",
+          "name": "Common Sense",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Common Sense",
+      "workshopId": "2875848298"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Neat_Crafting",
+          "name": "Neat Crafting",
+          "pzversion": "0",
+          "requires": [
+            "NeatUI_Framework"
+          ],
+          "versionMin": "42.9"
+        }
+      ],
+      "name": "Neat Crafting",
+      "workshopId": "3502080466"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Project_Cook",
+          "name": "Project Cook",
+          "pzversion": "0",
+          "requires": [
+            "NeatUI_Framework"
+          ],
+          "versionMin": "42.10"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "Project_Cook_Pixel_Icon_Pack",
+          "name": "Project Cook Pixel Icon Pack",
+          "pzversion": "0",
+          "requires": [
+            "NeatUI_Framework",
+            "Project_Cook"
+          ],
+          "versionMin": "42.10"
+        }
+      ],
+      "name": "Project Cook",
+      "workshopId": "3490188370"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Neat_Building",
+          "name": "Neat Building",
+          "pzversion": "0",
+          "requires": [
+            "NeatUI_Framework"
+          ],
+          "versionMin": "42.12.0"
+        }
+      ],
+      "name": "Neat Building",
+      "workshopId": "3536052310"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "KnownAndCollected",
+          "name": "Known And Collected",
+          "pzversion": "1",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "hideVanillaReadIcon",
+          "name": "Known And Collected - Hide vanilla read icon",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Known And Collected - Hide vanilla read icon",
+      "workshopId": "2881764317"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ChuckleberryFinnAlertSystem",
+          "name": "[Optional] Mod Update and Alert System",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "41.0"
+        }
+      ],
+      "name": "Mod Update and Alert System",
+      "workshopId": "3077900375"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Erikas_Tiles",
+          "name": "Erika's Tiles",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Erika's Tiles",
+      "workshopId": "3346506593"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "AccCamos",
+          "name": "Immersive Camos",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "AccCamosPeriodPack",
+          "name": "Immersive Camos - Period-Accurate Pack",
+          "pzversion": "1",
+          "requires": [
+            "AccCamos"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Immersive Camos",
+      "workshopId": "3454414190"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ModLoadOrderSorter_b42",
+          "name": "Mod Load Order Sorter [b42]",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Mod Load Order Sorter [b42]",
+      "workshopId": "3423660713"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "EssentialCrafting",
+          "name": "Essential Crafting",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Essential Crafting",
+      "workshopId": "2903127760"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "NepEasyDistro",
+          "name": "Nepenthe's Easy Distributions API",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Nepenthe's Easy Distributions API",
+      "workshopId": "3487312010"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TombBody",
+          "name": "Tomb's Player Body",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        },
+        {
+          "enabled": true,
+          "id": "TombBodyTex",
+          "name": "Tomb's Player Body - Textures",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "2"
+        },
+        {
+          "enabled": true,
+          "id": "TombBodyTexDOLL",
+          "name": "Tomb's Player Body - Textures [DOLL]",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "3"
+        },
+        {
+          "enabled": true,
+          "id": "TombBodyTexNUDE",
+          "name": "Tomb's Player Body - Textures [NUDE]",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "4"
+        },
+        {
+          "enabled": true,
+          "id": "TombBodyCustom",
+          "name": "Tomb's Player Body - [Customisation]",
+          "pzversion": "0",
+          "requires": [
+            "SpnCharCustom"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Tomb's Player Body - [Customisation]",
+      "workshopId": "3429790870"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Roccos_Tiles",
+          "name": "Rocco's Tiles",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Rocco's Tiles",
+      "workshopId": "3666137359"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "fhqMotoriusZone",
+          "name": "fhqwhgads' Motorious Zone Vehicle Pack",
+          "pzversion": "1",
+          "requires": [
+            "41.60"
+          ],
+          "versionMin": "41.60"
+        },
+        {
+          "enabled": true,
+          "id": "fhqMotoriousZone",
+          "name": "fhqwhgads' Motorious Zone Vehicle Pack",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "fhqMotoriousZoneImports",
+          "name": "fhqwhgads' Motorious Zone Vehicle Pack - Spawn Selection: Imports",
+          "pzversion": "0",
+          "requires": [
+            "fhqMotoriousZone"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "fhqMotoriusZoneImports",
+          "name": "fhqwhgads' Motorious Zone Vehicle Pack - Spawn Selection: Imports",
+          "pzversion": "0",
+          "requires": [
+            "fhqMotoriusZone"
+          ],
+          "versionMin": "41.60"
+        },
+        {
+          "enabled": true,
+          "id": "fhqMotoriousZoneExotics",
+          "name": "fhqwhgads' Motorious Zone Vehicle Pack - Spawn Selection: Rares and Exotics",
+          "pzversion": "0",
+          "requires": [
+            "fhqMotoriousZone"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "fhqMotoriusZoneExotics",
+          "name": "fhqwhgads' Motorious Zone Vehicle Pack - Spawn Selection: Rares and Exotics",
+          "pzversion": "0",
+          "requires": [
+            "fhqMotoriusZone"
+          ],
+          "versionMin": "41.60"
+        },
+        {
+          "enabled": true,
+          "id": "fhqMotoriousZoneRealNames",
+          "name": "fhqwhgads' Motorious Zone Vehicle Pack - Real Names Addon",
+          "pzversion": "0",
+          "requires": [
+            "fhqMotoriousZone"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "fhqMotoriusZoneRealNames",
+          "name": "fhqwhgads' Motorious Zone Vehicle Pack - Real Names Addon",
+          "pzversion": "0",
+          "requires": [
+            "fhqMotoriusZone"
+          ],
+          "versionMin": "41.60"
+        },
+        {
+          "enabled": true,
+          "id": "fhqMotoriousZoneUSDM",
+          "name": "fhqwhgads' Motorious Zone Vehicle Pack - Spawn Selection: US Motors",
+          "pzversion": "0",
+          "requires": [
+            "fhqMotoriousZone"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "fhqMotoriusZoneUSDM",
+          "name": "fhqwhgads' Motorious Zone Vehicle Pack - Spawn Selection: US Motors",
+          "pzversion": "0",
+          "requires": [
+            "fhqMotoriusZone"
+          ],
+          "versionMin": "41.60"
+        }
+      ],
+      "name": "fhqwhgads' Motorious Zone Vehicle Pack",
+      "workshopId": "2791656602"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "78amgeneralM35A2",
+          "name": "'78 AM General M35 Series Trucks",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "78amgeneralM35A2extra",
+          "name": "'78 AM General M35 Series Trucks Extra Textures",
+          "pzversion": "0",
+          "requires": [
+            "78amgeneralM35A2"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "78amgeneralM49A2C",
+          "name": "'78 AM General M49A2C",
+          "pzversion": "0",
+          "requires": [
+            "78amgeneralM35A2"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "78amgeneralM50A3",
+          "name": "'78 AM General M50A3 Water Tanker",
+          "pzversion": "0",
+          "requires": [
+            "78amgeneralM35A2"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "78amgeneralM62",
+          "name": "'78 AM General M62 Wrecker",
+          "pzversion": "0",
+          "requires": [
+            "78amgeneralM35A2"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'78 AM General M35 Series Trucks",
+      "workshopId": "2799152995"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "86fordE150",
+          "name": "'86 Ford Econoline E150",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "86fordE150dnd",
+          "name": "'86 Ford Econoline E150 Mutt Cutts van",
+          "pzversion": "0",
+          "requires": [
+            "86fordE150"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "86fordE150expanded",
+          "name": "'86 Ford Econoline E150 Expanded",
+          "pzversion": "0",
+          "requires": [
+            "86fordE150"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "86fordE150mm",
+          "name": "'86 Ford Econoline E150 Mystery Machine",
+          "pzversion": "0",
+          "requires": [
+            "86fordE150"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "86fordE150pd",
+          "name": "'86 Ford Econoline E150 Payday Escape Van",
+          "pzversion": "0",
+          "requires": [
+            "86fordE150"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'86 Ford Econoline E150",
+      "workshopId": "2870394916"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "PROJECTRVInterior42",
+          "name": "[B42]PROJECT RV Interior",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "[B42]PROJECT RV Interior",
+      "workshopId": "3543229299"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "69mini",
+          "name": "'69 Mini Mk2",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "69mini_ItalianJob",
+          "name": "'69 Mini Mk2 Italian Job",
+          "pzversion": "0",
+          "requires": [
+            "69mini"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "69mini_MrBean",
+          "name": "'69 Mini Mk2 Mr Bean",
+          "pzversion": "0",
+          "requires": [
+            "69mini"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "69mini_PitbullSpecial",
+          "name": "'69 Mini Mk2 Pitbull Special",
+          "pzversion": "0",
+          "requires": [
+            "69mini"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'69 Mini Mk2",
+      "workshopId": "2937786633"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "tikitown",
+          "name": "Tikitown",
+          "pzversion": "0",
+          "requires": [
+            "melos_tiles_for_miles_pack",
+            "Diederiks Tile Palooza",
+            "EN_Newburbs",
+            "tikitown_tiles"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "TikitownPower",
+          "name": "Tikitown Power Plant",
+          "pzversion": "0",
+          "requires": [
+            "tikitown",
+            "tikitown_tiles"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "TT_PowerPlant",
+          "name": "Tikitown Power Plant",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "2"
+        }
+      ],
+      "name": "Tikitown (B41/B42)",
+      "workshopId": "3037854728"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Atlanta",
+          "name": "Atlanta",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "Atlanta - Safe Zone-Chinese Survivors\u2019 Community",
+          "name": "Atlanta - Safe Zone-Chinese Survivors\u2019 Community",
+          "pzversion": "1",
+          "requires": [
+            "Atlanta"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Atlanta",
+      "workshopId": "3580819781"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "59meteor",
+          "name": "'59 Cadillac Miller-Meteor",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "ECTO1",
+          "name": "'59 Cadillac Miller-Meteor ECTO-1",
+          "pzversion": "0",
+          "requires": [
+            "59meteor"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'59 Cadillac Miller-Meteor",
+      "workshopId": "2772575623"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "73fordFalcon",
+          "name": "'73 Ford Falcon",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "73fordFalconPS",
+          "name": "'73 Ford Falcon XB GT Pursuit Special",
+          "pzversion": "0",
+          "requires": [
+            "73fordFalcon"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'73 Ford Falcon",
+      "workshopId": "3490370700"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "82jeepJ10",
+          "name": "'82 Jeep J10",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "82jeepJ10t",
+          "name": "'82 Jeep J10 Mellow Yellow",
+          "pzversion": "0",
+          "requires": [
+            "82jeepJ10"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'82 Jeep J10",
+      "workshopId": "2886832257"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "83amgeneralM923",
+          "name": "'83 AM General M923 Hillbilly",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "83amgeneralM923extra",
+          "name": "'83 AM General M923 Hillbilly Extra Textures",
+          "pzversion": "0",
+          "requires": [
+            "83amgeneralM923"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'83 AM General M923 Hillbilly",
+      "workshopId": "2811383142"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "88chevyS10",
+          "name": "'88 Chevrolet S10",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'88 Chevrolet S10",
+      "workshopId": "2886832936"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "82firebird",
+          "name": "'82 Pontiac Firebird",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "82firebirdKITT",
+          "name": "'82 Pontiac Firebird Trans Am KITT",
+          "pzversion": "0",
+          "requires": [
+            "82firebird"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'82 Pontiac Firebird",
+      "workshopId": "3320947974"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "85chevyStepVan",
+          "name": "'85 Chevrolet Step-Van",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "85chevyStepVanexpanded",
+          "name": "'85 Chevrolet Step-Van Expanded",
+          "pzversion": "0",
+          "requires": [
+            "85chevyStepVan"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'85 Chevrolet Step-Van",
+      "workshopId": "3614034284"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "92amgeneralM998",
+          "name": "'92 AM General M998 + M101A3 Trailer",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "92amgeneralM998extra",
+          "name": "'92 AM General M998 + M101A3 Trailer Extra Textures",
+          "pzversion": "0",
+          "requires": [
+            "92amgeneralM998"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'92 AM General M998 + M101A3 Trailer",
+      "workshopId": "2642541073"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "81deloreanDMC12",
+          "name": "'81 DeLorean DMC-12",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "81deloreanDMC12BTTF",
+          "name": "'81 DeLorean DMC-12 Time Machine",
+          "pzversion": "0",
+          "requires": [
+            "81deloreanDMC12"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'81 DeLorean DMC-12",
+      "workshopId": "3253385114"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "92jeepYJ",
+          "name": "'92 Jeep Wrangler YJ",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "92jeepYJJP18",
+          "name": "'92 Jeep Wrangler YJ JP18",
+          "pzversion": "0",
+          "requires": [
+            "92jeepYJ"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'92 Jeep Wrangler YJ",
+      "workshopId": "3287727378"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "93chevySuburban",
+          "name": "'93 Chevrolet Suburban / Silverado",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "93chevySuburbanExpanded",
+          "name": "'93 Chevrolet Suburban / Silverado Expanded",
+          "pzversion": "0",
+          "requires": [
+            "93chevySuburban"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'93 Chevrolet Suburban / Silverado",
+      "workshopId": "3152529790"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "KI5trailers",
+          "name": "Trailers!",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "Trailers!",
+      "workshopId": "3330403100"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "RaccoonCityB42",
+          "name": "RaccoonCityB42",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "RaccoonCityB42",
+      "workshopId": "3388468313"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "AuthenticZBackpacks+",
+          "name": "Authentic Z - Backpacks+",
+          "pzversion": "41",
+          "requires": [
+            "42"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "Authentic Z - Current",
+          "name": "Authentic Z",
+          "pzversion": "41",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        },
+        {
+          "enabled": true,
+          "id": "AuthenticZLite",
+          "name": "Authentic Z - Lite",
+          "pzversion": "41",
+          "requires": [
+            "42"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Authentic Z - Backpacks+",
+      "workshopId": "2335368829"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "93fordElgin",
+          "name": "'93 Ford CF8000 Elgin Street Sweeper",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'93 Ford CF8000 Elgin Street Sweeper",
+      "workshopId": "2969343830"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "VMZ",
+          "name": "Vehicle Military Zone (Old version)",
+          "pzversion": "42",
+          "requires": [
+            "42"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "VMZNEW",
+          "name": "Vehicle Military Zone",
+          "pzversion": "0",
+          "requires": [
+            "YAPZLib"
+          ],
+          "versionMin": "42.00"
+        }
+      ],
+      "name": "Vehicle Military Zone (Old version)",
+      "workshopId": "3436499337"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "04vwTouran",
+          "name": "'04 Volkswagen Touran",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'04 Volkswagen Touran",
+      "workshopId": "3478633453"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "65banshee",
+          "name": "'65 Pontiac Banshee",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'65 Pontiac Banshee",
+      "workshopId": "3566868353"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "66pontiacLeMans",
+          "name": "'66 Pontiac LeMans / GTO",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'66 Pontiac LeMans / GTO",
+      "workshopId": "3447272250"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "68firebird",
+          "name": "'68 Pontiac Firebird",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'68 Pontiac Firebird",
+      "workshopId": "3258343790"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "69camaro",
+          "name": "'69 Chevrolet Camaro",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'69 Chevrolet Camaro",
+      "workshopId": "2991201484"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "69charger",
+          "name": "'69 Dodge Charger",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'69 Dodge Charger",
+      "workshopId": "3631989559"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "70barracuda",
+          "name": "'70 Plymouth Barracuda",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'70 Plymouth Barracuda",
+      "workshopId": "2913633066"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "70dodge",
+          "name": "'70 Dodge Challenger",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'70 Dodge Challenger",
+      "workshopId": "2873290424"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "70roadRunner",
+          "name": "'70 Plymouth Road Runner",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'70 Plymouth Road Runner",
+      "workshopId": "3642935062"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "80manKat1",
+          "name": "'80 MAN KAT1",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'80 MAN KAT1",
+      "workshopId": "3248388837"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "84buickElectra",
+          "name": "'84 Buick Electra",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'84 Buick Electra",
+      "workshopId": "3596903773"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "84cadillacDeVille",
+          "name": "'84 Cadillac DeVille",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'84 Cadillac DeVille",
+      "workshopId": "3592777775"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "84jeepXJ",
+          "name": "'84 Jeep XJ Cherokee",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'84 Jeep XJ Cherokee",
+      "workshopId": "3409287192"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "84oldsmobile98",
+          "name": "'84 Oldsmobile 98 Regency",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'84 Oldsmobile 98 Regency",
+      "workshopId": "3601417745"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "87fordB700",
+          "name": "'87 Ford B700/F700 Trucks",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'87 Ford B700/F700 Trucks",
+      "workshopId": "3110911330"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "87toyotaMR2",
+          "name": "'87 Toyota MR2",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'87 Toyota MR2",
+      "workshopId": "3052360250"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "88toyotaHilux",
+          "name": "'88 Toyota Hilux",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'88 Toyota Hilux",
+      "workshopId": "3435796523"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "89fordBronco",
+          "name": "'89 Ford Bronco",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'89 Ford Bronco",
+      "workshopId": "2886833398"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "91fordRanger",
+          "name": "'91 Ford Ranger",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'91 Ford Ranger",
+      "workshopId": "3539691958"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "91nissan240sx",
+          "name": "'91 Nissan 240SX",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'91 Nissan 240SX",
+      "workshopId": "3504401781"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "91range",
+          "name": "'91 RANGE ROVER Classic",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'91 RANGE ROVER Classic",
+      "workshopId": "2409333430"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "93mustangSSP",
+          "name": "'93 Ford Mustang SSP",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'93 Ford Mustang SSP",
+      "workshopId": "3001592312"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "93townCar",
+          "name": "'93 Lincoln Town Car",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'93 Lincoln Town Car",
+      "workshopId": "2932547723"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "amclub",
+          "name": "Autotsar Motorclub v.1.02",
+          "pzversion": "0",
+          "requires": [
+            "tsarslib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Autotsar Motorclub v.1.02",
+      "workshopId": "3404737883"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "pzkJesterVan",
+          "name": "PZK JesterVan",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "PZK JesterVan",
+      "workshopId": "3501800585"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "dawn_town",
+          "name": "Dawn Town",
+          "pzversion": "0",
+          "requires": [
+            "Roccos_Tiles"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Dawn Town",
+      "workshopId": "3666180085"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "89defender",
+          "name": "'89 LAND ROVER Defender",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'89 LAND ROVER Defender",
+      "workshopId": "3570973322"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "92nissanGTR",
+          "name": "'92 NISSAN Skyline GT-R (R32)",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'92 NISSAN Skyline GT-R (R32)",
+      "workshopId": "2846036306"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "95impreza",
+          "name": "'95 Subaru Impreza WRX STI",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'95 Subaru Impreza WRX STI",
+      "workshopId": "3647735736"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "isg85countach",
+          "name": "'85 Lamborghini Countach",
+          "pzversion": "42",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'85 Lamborghini Countach",
+      "workshopId": "3406622334"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "AnruisiTown",
+          "name": "AnruisiTown",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "AnruisiTown",
+      "workshopId": "3659676359"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Erikas_Furniture_Store",
+          "name": "Erika's Furniture Store",
+          "pzversion": "0",
+          "requires": [
+            "Erikas_Tiles"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Erika's Furniture Store",
+      "workshopId": "3363546437"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Greenleaf B42 version",
+          "name": "Greenleaf B42 version",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Greenleaf B42 version",
+      "workshopId": "3602388131"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Maplewood",
+          "name": "Maplewood",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "42.0"
+        }
+      ],
+      "name": "Maplewood",
+      "workshopId": "3644794945"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "49powerWagon",
+          "name": "'49 Dodge Power Wagon Crew Cab",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'49 Dodge Power Wagon Crew Cab",
+      "workshopId": "2900580391"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "63beetle",
+          "name": "'63 Volkswagen 1300 Beetle",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'63 Volkswagen 1300 Beetle",
+      "workshopId": "3005903549"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "63Type2Van",
+          "name": "'63 Volkswagen Type 2 Van",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'63 Volkswagen Type 2 Van",
+      "workshopId": "3041122351"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "67commando",
+          "name": "'67 M706 Cadillac Gage Commando V100",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'67 M706 Cadillac Gage Commando V100",
+      "workshopId": "2478247379"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "67gt500",
+          "name": "'67 Shelby GT500 + Eleanor",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'67 Shelby GT500 + Eleanor",
+      "workshopId": "3026723485"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "75grandPrix",
+          "name": "'75 Pontiac Grand Prix",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'75 Pontiac Grand Prix",
+      "workshopId": "3213391371"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "76chevyKseries",
+          "name": "'76 Chevrolet K series",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'76 Chevrolet K series",
+      "workshopId": "3161951724"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "77firebird",
+          "name": "'77 Pontiac Firebird",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'77 Pontiac Firebird",
+      "workshopId": "3346905070"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "82porsche911",
+          "name": "'82 Porsche 911",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'82 Porsche 911",
+      "workshopId": "3379334330"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "84merc",
+          "name": "'84 Mercedes Benz W460",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'84 Mercedes Benz W460",
+      "workshopId": "2805630347"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "85buickLeSabre",
+          "name": "'85 Buick LeSabre",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'85 Buick LeSabre",
+      "workshopId": "3418252689"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "85chevyCaprice",
+          "name": "'85 Chevrolet Caprice / Impala",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'85 Chevrolet Caprice / Impala",
+      "workshopId": "3413704851"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "85oldsmobileDelta88",
+          "name": "'85 Oldsmobile Delta 88",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'85 Oldsmobile Delta 88",
+      "workshopId": "3418253716"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "85pontiacParisienne",
+          "name": "'85 Pontiac Parisienne",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "'85 Pontiac Parisienne",
+      "workshopId": "3413706334"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "86chevyCUCV",
+          "name": "'86 Chevrolet CUCVs + M101A2 Trailer",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'86 Chevrolet CUCVs + M101A2 Trailer",
+      "workshopId": "3428008364"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "86oshkoshP19A",
+          "name": "'86 Oshkosh P19A + Military Trailers",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'86 Oshkosh P19A + Military Trailers",
+      "workshopId": "2566953935"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "87buickRegal",
+          "name": "'87 Buick Regal",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'87 Buick Regal",
+      "workshopId": "3226885926"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "87chevySuburban",
+          "name": "'87 Chevrolet Suburban",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'87 Chevrolet Suburban",
+      "workshopId": "3196180339"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "89dodgeCaravan",
+          "name": "'89 Dodge Caravan",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'89 Dodge Caravan",
+      "workshopId": "3034636011"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "89trooper",
+          "name": "'89 Isuzu Trooper",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'89 Isuzu Trooper",
+      "workshopId": "2932549988"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "89volvo200",
+          "name": "'89 Volvo 200 Series",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'89 Volvo 200 Series",
+      "workshopId": "3292659291"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "90bmwE30",
+          "name": "'90 BMW 3 Series (E30)",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'90 BMW 3 Series (E30)",
+      "workshopId": "3110913021"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "90fordF350ambulance",
+          "name": "'90 Ford F350 Ambulance Type 1",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'90 Ford F350 Ambulance Type 1",
+      "workshopId": "2952802178"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "90pierceArrow",
+          "name": "'90 Pierce Arrow Pumper",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'90 Pierce Arrow Pumper",
+      "workshopId": "2942793445"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "91fordLTD",
+          "name": "'91 Ford LTD Crown Victoria",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'91 Ford LTD Crown Victoria",
+      "workshopId": "3366300557"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "91geoMetro",
+          "name": "'91 Geo Metro",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'91 Geo Metro",
+      "workshopId": "3008795514"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "92fordCVPI",
+          "name": "'92 Ford Crown Victoria Police Interceptor",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'92 Ford Crown Victoria Police Interceptor",
+      "workshopId": "2962175696"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "93fordF350",
+          "name": "'93 Ford F-Series",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'93 Ford F-Series",
+      "workshopId": "3073430075"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "93fordTaurus",
+          "name": "'93 Ford Taurus",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'93 Ford Taurus",
+      "workshopId": "3088951320"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "96lancerEVO",
+          "name": "'96 Mitsubishi Lancer EVO IV",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'96 Mitsubishi Lancer EVO IV",
+      "workshopId": "3647736504"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "97bushmaster",
+          "name": "'97 ADI Bushmaster",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'97 ADI Bushmaster",
+      "workshopId": "2897390033"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "98stagea",
+          "name": "'98 Nissan Stagea 260RS Autech",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'98 Nissan Stagea 260RS Autech",
+      "workshopId": "3315443103"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "99fordCVPI",
+          "name": "'99 Ford Crown Victoria Police Interceptor",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'99 Ford Crown Victoria Police Interceptor",
+      "workshopId": "2971246021"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "RVInteriorExpansion",
+          "name": "RV Interior Expansion",
+          "pzversion": "0",
+          "requires": [
+            "PROJECTRVInterior42"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "RV Interior Expansion",
+      "workshopId": "3618427553"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "RVmilitaryaddon",
+          "name": "RV Military Addon",
+          "pzversion": "0",
+          "requires": [
+            "PROJECTRVInterior42"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "RV Military Addon",
+      "workshopId": "3614959302"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "FordCrownVictoriacolor",
+          "name": "Ford Crown Victoria 1999 (beta)",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "41.0"
+        }
+      ],
+      "name": "Ford Crown Victoria 1999 for b42+",
+      "workshopId": "2661819460"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Nissan240SX",
+          "name": "Nissan 240SX for b42+",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "42.0"
+        },
+        {
+          "enabled": true,
+          "id": "nissantestcolor",
+          "name": "Nissan 240SX",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        }
+      ],
+      "name": "Nissan 240SX for b42+",
+      "workshopId": "2664866820"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "RVInteriorExpansionPart2",
+          "name": "RV Interior Expansion Part 2",
+          "pzversion": "0",
+          "requires": [
+            "PROJECTRVInterior42"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "RV Interior Expansion Part 2",
+      "workshopId": "3622163276"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "70fordEscort",
+          "name": "'70 Ford Escort",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'70 Ford Escort",
+      "workshopId": "3670063857"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "beek_muldraugh_firedept",
+          "name": "Muldraugh FireDepartment",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "42.0"
+        }
+      ],
+      "name": "Muldraugh FireDepartment [B42]",
+      "workshopId": "3585472912"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Estate 39",
+          "name": "Estate 39",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Estate 39",
+      "workshopId": "3606927986"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Fort Waterfront B42",
+          "name": "Fort Waterfront B42",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Fort Waterfront B42",
+      "workshopId": "3486814612"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Louisville_Quarantine_Zone",
+          "name": "Louisville Quarantine Zone",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Louisville Quarantine Zone",
+      "workshopId": "2934132344"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Louisville_River_Marina",
+          "name": "Louisville River Marina",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Louisville River Marina",
+      "workshopId": "2963467990"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Louisville_Riverboat",
+          "name": "Louisville Riverboat",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Louisville Riverboat",
+      "workshopId": "2963883586"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "RavenCreekB42",
+          "name": "Raven Creek B42",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Raven Creek B42",
+      "workshopId": "3484263516"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "UncleRedsBunkerRedux",
+          "name": "Uncle Red's Bunker Redux",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "Uncleredsbunkerb42",
+          "name": "Uncle Red's bunker B42",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        }
+      ],
+      "name": "Uncle Red's Bunker Redux",
+      "workshopId": "3636964628"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "isoContainers",
+          "name": "Containers!",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "Containers!",
+      "workshopId": "2625625421"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "lockMartM577",
+          "name": "Lock-Mart Industries M577",
+          "pzversion": "0",
+          "requires": [
+            "damnlib"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "Lock-Mart Industries M577",
+      "workshopId": "3652371248"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "randomairdropsASVOD",
+          "name": "Random Airdrops[B42.13.2]",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Random Airdrops[B42.13.2]",
+      "workshopId": "3655233584"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "H_E_C_U",
+          "name": "H.E.C.U.",
+          "pzversion": "41",
+          "requires": [
+            "42.12.0"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "H.E.C.U.",
+      "workshopId": "3452711271"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SimpleOverhaulTraitsAndOccupations",
+          "name": "Simple Overhaul: Traits and Occupations (SOTO)",
+          "pzversion": "42",
+          "requires": [
+            "42"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Simple Overhaul: Traits and Occupations (SOTO)",
+      "workshopId": "2840805724"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "MoreDamagedObjects",
+          "name": "More Damaged Objects [B41]",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "More Damaged Objects [B42.12]",
+      "workshopId": "3413150945"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "RebalancedPropMoving",
+          "name": "Rebalanced Prop Moving",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "Rebalanced Prop Moving",
+      "workshopId": "2699828474"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Ahu'sToolWeapon42.13",
+          "name": "Ahu's ToolWeapon Pack - B42.13",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "Ahu'sToolWeapon",
+          "name": "Ahu's ToolWeapon Pack",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        },
+        {
+          "enabled": true,
+          "id": "Ahu'sToolWeaponNoTraits",
+          "name": "Ahu's ToolWeapon Pack - No Traits",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "2"
+        }
+      ],
+      "name": "Ahu's ToolWeapon Pack - B42.13",
+      "workshopId": "3422418897"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "HereGoesTheSun",
+          "name": "Here Goes the Sun",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "42.0"
+        }
+      ],
+      "name": "Here Goes the Sun",
+      "workshopId": "3618557184"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "InjuredZombiesStumble",
+          "name": "Injured Zombies Stumble",
+          "pzversion": "0",
+          "requires": [
+            "41.78"
+          ],
+          "versionMin": "41.78"
+        }
+      ],
+      "name": "Injured Zombies Stumble",
+      "workshopId": "3648051123"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "RadioBrasil",
+          "name": "R\u00e1dio Brasil - M4rMil",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "42.0"
+        }
+      ],
+      "name": "R\u00e1dio Brasil - M4rMil",
+      "workshopId": "3615832618"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SapphCooking_B42",
+          "name": "Sapph's Cooking",
+          "pzversion": "42",
+          "requires": [
+            "42.12"
+          ],
+          "versionMin": "42.12"
+        }
+      ],
+      "name": "Sapph's Cooking",
+      "workshopId": "3409143790"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ThumpingAttractsZombies",
+          "name": "Thumping Attracts Zombies",
+          "pzversion": "0",
+          "requires": [
+            "41.78"
+          ],
+          "versionMin": "41.78"
+        }
+      ],
+      "name": "Thumping Attracts Zombies",
+      "workshopId": "3646787580"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "OpenAllContainers",
+          "name": "Open All Containers [B41]",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Open All Containers [B42.12]",
+      "workshopId": "3465040406"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SnackTime89",
+          "name": "SnackTime89 - B41",
+          "pzversion": "41",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "42.0"
+        }
+      ],
+      "name": "SnackTime89 - B42",
+      "workshopId": "3589560764"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "CustomizableWeightMultiplierContinued",
+          "name": "Customizable Weight Multiplier Continued (B42+)",
+          "pzversion": "42",
+          "requires": [
+            "42"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Customizable Weight Multiplier Continued (B42+)",
+      "workshopId": "3629464135"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "CustomSync",
+          "name": "Custom Sync Optimizer",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "41.0"
+        }
+      ],
+      "name": "Custom Sync Optimizer",
+      "workshopId": "3646815505"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "PumpsHavePropaneMP",
+          "name": "Pumps Have Propane (Standalone MP)",
+          "pzversion": "0",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "Pumps Have Propane (Standalone MP)",
+      "workshopId": "3632444452"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "StorageWorks",
+          "name": "StorageWorks",
+          "pzversion": "42.0.0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "StorageWorks",
+      "workshopId": "3657325209"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "B42Horticulture",
+          "name": "[B42] Horticulture",
+          "pzversion": "0",
+          "requires": [
+            "42.13.0"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[B42] Horticulture",
+      "workshopId": "3650168851"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "B42PackMule",
+          "name": "[B42] Pack Mule",
+          "pzversion": "0",
+          "requires": [
+            "42.12.0"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[B42] Pack Mule",
+      "workshopId": "3540903327"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SpecLoot",
+          "name": "Specific Loot (KI5)",
+          "pzversion": "0",
+          "requires": [
+            "YAPZLib"
+          ],
+          "versionMin": "42.00"
+        }
+      ],
+      "name": "Specific Loot (KI5)",
+      "workshopId": "3457132019"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "HardTrapping",
+          "name": "Hard Trapping",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Hard Trapping",
+      "workshopId": "2909936075"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "RepairableWindows",
+          "name": "Repairable Windows",
+          "pzversion": "0",
+          "requires": [
+            "StarlitLibrary"
+          ],
+          "versionMin": "41.78.16"
+        }
+      ],
+      "name": "Repairable Windows",
+      "workshopId": "3378304610"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "esc_player_craft_history_fix",
+          "name": "Player Craft History Fix",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Player Craft History Fix",
+      "workshopId": "3651576948"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "extendedBatteryLife",
+          "name": "[B42] Extended Battery Life",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "[B42] Extended Battery Life",
+      "workshopId": "3387462212"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "FixBlowTorchPropaneTank",
+          "name": "Fix BlowTorch & PropaneTank",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Fix BlowTorch & PropaneTank",
+      "workshopId": "3044705007"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ProximityInventory4213",
+          "name": "Proximity Inventory 42.13 Compatibility",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Proximity Inventory 42.13 Compatibility",
+      "workshopId": "3624308198"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] Firefighter Uniform",
+          "name": "[J&G] Firefighter Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] Firefighter Uniform [B42/41]",
+      "workshopId": "3521263771"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "PompCollectibles",
+          "name": "Collections",
+          "pzversion": "0",
+          "requires": [
+            "41.78"
+          ],
+          "versionMin": "41.78"
+        }
+      ],
+      "name": "Collections",
+      "workshopId": "3322631319"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SpnCloth",
+          "name": "Spongie's Clothing",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Spongie's Clothing [B42]",
+      "workshopId": "2684285534"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SpnOpenCloth",
+          "name": "Spongie's Open Jackets",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Spongie's Open Jackets [B42]",
+      "workshopId": "2812326159"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "LinkinParkGreatestHits2012",
+          "name": "Linkin Park - Greatest Hits(2012) B42.13+",
+          "pzversion": "0",
+          "requires": [
+            "TrueMoozic"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "Linkin Park - Greatest Hits(2012) B42.13+",
+      "workshopId": "3655692755"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TM_Metallica",
+          "name": "Metallica B42.13+",
+          "pzversion": "0",
+          "requires": [
+            "TrueMoozic"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "Metallica B42.13+",
+      "workshopId": "3640806810"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TMItemMPSyncFix",
+          "name": "True Music Media Item MP Sync Fix",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "42.0"
+        }
+      ],
+      "name": "True Music Media Item MP Sync Fix",
+      "workshopId": "3641584634"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TMMMB42.13+",
+          "name": "True Moozic: Mixtape Megapack B42.13+",
+          "pzversion": "0",
+          "requires": [
+            "TrueMoozic"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "True Moozic: Mixtape Megapack B42.13+",
+      "workshopId": "3633882960"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ReplaceBandage",
+          "name": "Replace Bandage",
+          "pzversion": "0",
+          "requires": [
+            "42.13.0"
+          ],
+          "versionMin": "41.0"
+        }
+      ],
+      "name": "Replace Bandage",
+      "workshopId": "2944344655"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "EntertainYourself",
+          "name": "Entertain Yourself",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Entertain Yourself",
+      "workshopId": "2950608437"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ImmersiveHunting",
+          "name": "Immersive Hunting",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "ImmersiveHunting10YL",
+          "name": "Immersive Hunting - 10 years later version",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        }
+      ],
+      "name": "Immersive Hunting",
+      "workshopId": "2970858855"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "CeilingsB42",
+          "name": "[B42] Ceilings Mod and API",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "[B42] Ceilings Mod and API",
+      "workshopId": "3539632193"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "FixedLightOnBeltAF",
+          "name": "[B42] Simple Flashlight on Belt! (Angled Flashlight fix)",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "[B42] Simple Flashlight on Belt! (Angled Flashlight fix)",
+      "workshopId": "3625933422"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "MoreMapsB42Fixed",
+          "name": "[B42.13] More Maps",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "[B42.13] More Maps",
+      "workshopId": "3656054533"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "UnclearRipAllButton",
+          "name": "Rip All Button In context Menu",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Rip All Button In context Menu",
+      "workshopId": "3641027178"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "vac_mod_b42_22",
+          "name": "Pick Up All",
+          "pzversion": "0",
+          "requires": [
+            "vac_mod_b42_utils",
+            "Karas Zone Selector API"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Pick Up All",
+      "workshopId": "3660401764"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "vac_mod_b42_4",
+          "name": "Batch Floor Action",
+          "pzversion": "0",
+          "requires": [
+            "vac_mod_b42_utils",
+            "Karas Zone Selector API"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Batch Floor Action",
+      "workshopId": "3654929003"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] Black Multicam Uniform",
+          "name": "[J&G] Black Multicam Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] Black Multicam Uniform [B42/41]",
+      "workshopId": "3315302991"
+    },
+    {
+      "mods": [
+        {
+          "addedAutomaticallyReason": "0",
+          "enabled": true,
+          "id": "[J&G] British DPM Uniform",
+          "name": "[J&G] British DPM Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] British DPM Uniform [B42/41]",
+      "workshopId": "3654107996"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] Caution Pack",
+          "name": "[J&G] Caution Pack",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] Caution Pack [B42/41]",
+      "workshopId": "3369825662"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] Neon Vandals Uniform",
+          "name": "[J&G] Neon Vandals Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] Neon Vandals Uniform [B42/41]",
+      "workshopId": "3497172953"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] SWAT Uniform",
+          "name": "[J&G] SWAT Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] SWAT Uniform [B42/41]",
+      "workshopId": "3457969588"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] Trauma Responder Uniform",
+          "name": "[J&G] Trauma Responder Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] Trauma Responder Uniform [B42/41]",
+      "workshopId": "3443982326"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "CYBERDOGTEMPLATE",
+          "name": "Cyber Doggie Mod - Animal Template",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Cyber Doggie Mod - Animal Template",
+      "workshopId": "3656507478"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] Alpine Multicam Uniform",
+          "name": "[J&G] Alpine Multicam Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] Alpine Multicam Uniform [B42/41]",
+      "workshopId": "3303746488"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] Desert Multicam Uniform",
+          "name": "[J&G] Desert Multicam Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] Desert Multicam Uniform [B42/41]",
+      "workshopId": "3299457564"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] Flecktarn Uniform",
+          "name": "[J&G] Flecktarn Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] Flecktarn Uniform [42/41]",
+      "workshopId": "3206579556"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] Forest Multicam Uniform",
+          "name": "[J&G] Forest Multicam Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] Forest Multicam Uniform [B42/41]",
+      "workshopId": "3309971624"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] MARPAT Camo Uniform",
+          "name": "[J&G] MARPAT Camo Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] MARPAT Camo Uniform [B42/41]",
+      "workshopId": "3616192072"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "[J&G] XKU Uniform",
+          "name": "[J&G] XKU Uniform",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "[J&G] XKU Uniform [B42/41]",
+      "workshopId": "3276134387"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "VanillaFoodsExpanded",
+          "name": "Vanilla Foods Expanded",
+          "pzversion": "0",
+          "requires": [
+            "42.12"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "Vanilla Foods Expanded 41.12 Legacy",
+      "workshopId": "3577903007"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ZWatchSlots",
+          "name": "Zed's Watch Slots",
+          "pzversion": "0",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "Zed's Watch Slots",
+      "workshopId": "3630525533"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "FoodPreservationPlus",
+          "name": "Food Preservation Plus",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Food Preservation Plus",
+      "workshopId": "2890748284"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "OCsPacking",
+          "name": "Hoarder's Delight - Box & Carton Bulk Packing",
+          "pzversion": "0",
+          "requires": [
+            "42.00"
+          ],
+          "versionMin": "42.00"
+        }
+      ],
+      "name": "Hoarder's Delight - Box & Carton Bulk Packing",
+      "workshopId": "3626823538"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "DynamicMining",
+          "name": "Dynamic Mining",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Dynamic Mining",
+      "workshopId": "2963057869"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "darkerMap",
+          "name": "Darker Map",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Darker Map",
+      "workshopId": "2939187818"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "CargoTrailer_BubbysVariants",
+          "name": "Trailers! (Bubby's Variants)",
+          "pzversion": "0",
+          "requires": [
+            "KI5trailers"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Trailers! (Bubby's Variants)",
+      "workshopId": "3630693325"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Fallout Hummer by Papa_Chad",
+          "name": "Fallout Hummer by Papa_Chad",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Fallout Hummer by Papa_Chad",
+      "workshopId": "3658100636"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "FordExcursion2005PapaChad",
+          "name": "Ford Excursion 2005 by Papa_Chad",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Ford Excursion 2005 by Papa_Chad",
+      "workshopId": "3588624649"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "U.S. M998 Humvee by Papa_Chad",
+          "name": "U.S. M998 Humvee by Papa_Chad",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "U.S. M998 Humvee by Papa_Chad",
+      "workshopId": "3554424111"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ArmoredVests",
+          "name": "Armored Vests",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "ArmoredVestsPatch",
+          "name": "Armored Vests VGE Patch",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        }
+      ],
+      "name": "Armored Vests",
+      "workshopId": "1962761540"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "BlueMoonLightingMod",
+          "name": "<Blue Moon>",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "42.0"
+        }
+      ],
+      "name": "<Blue Moon>",
+      "workshopId": "3616381828"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "FasterHoodOpening",
+          "name": "Faster Hood Opening",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Faster Hood Opening",
+      "workshopId": "2584112711"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "StopJumpingOffStairs",
+          "name": "StopJumpingOffStairs",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "StopJumpingOffStairs",
+      "workshopId": "3650112103"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "UseItemsWhileWalkingB42",
+          "name": "Use Items While Walking (B42)",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Use Items While Walking (B42)",
+      "workshopId": "3615422211"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TwoWeaponsB",
+          "name": "Two Weapons on Back!",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Two Weapons on Back!",
+      "workshopId": "3664310933"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "42GunReloadFix",
+          "name": "42GunReloadFix",
+          "pzversion": "0",
+          "requires": [
+            "42.13.0"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "42GunReloadFix",
+      "workshopId": "3647039527"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "BetterFlashlightsFixed",
+          "name": "[B42] Better Flashlights",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "[B42] Better Flashlights",
+      "workshopId": "3420478458"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "VGC_Addon_GameBoyGames",
+          "name": "Video Game Consoles Addon - More Game Boy Games Reupload for B42",
+          "pzversion": "0",
+          "requires": [
+            "Video_Game_Consoles"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "Video Game Consoles Addon - More Game Boy Games Reupload for B42",
+      "workshopId": "3418352842"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "VGC_Addon_NESGames",
+          "name": "Video Game Consoles Addon - More NES Games Reupload for B42",
+          "pzversion": "0",
+          "requires": [
+            "Video_Game_Consoles"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "Video Game Consoles Addon - More NES Games Reupload for B42",
+      "workshopId": "3413237147"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "VGC_Addon_SEGAGames",
+          "name": "Video Game Consoles Addon - More SEGA Games",
+          "pzversion": "0",
+          "requires": [
+            "Video_Game_Consoles"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "Video Game Consoles Addon - More SEGA Games",
+      "workshopId": "3423725989"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "VGC_Addon_SNESGames",
+          "name": "Video Game Consoles Addon - More SNES Games",
+          "pzversion": "0",
+          "requires": [
+            "Video_Game_Consoles"
+          ],
+          "versionMin": "42.13.0"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "VGC_Addon_SNESGames2",
+          "name": "Video Game Consoles Addon - More SNES Games - Expansion",
+          "pzversion": "0",
+          "requires": [
+            "Video_Game_Consoles"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "Video Game Consoles Addon - More SNES Games",
+      "workshopId": "3408186716"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "PzkAnimeQoL",
+          "name": "PZK Anime QoL assets",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "PzkAnimeShader",
+          "name": "PZK Anime Shader",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        },
+        {
+          "enabled": true,
+          "id": "PzkAnimeWater",
+          "name": "PZK Anime/Toon Water",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "2"
+        },
+        {
+          "enabled": true,
+          "id": "PzkAnimeSkins",
+          "name": "PZK Player Skins",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "3"
+        },
+        {
+          "enabled": true,
+          "id": "PzkAnimeSkinsNSFW",
+          "name": "PZK Player Skins NSFW",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "4"
+        }
+      ],
+      "name": "PZK Anime QoL assets",
+      "workshopId": "3457364806"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "CSECCompatibilityPatch",
+          "name": "Common Sense + Essential Crafting Compatibility Patch",
+          "pzversion": "0",
+          "requires": [
+            "BB_CommonSense",
+            "EssentialCrafting"
+          ],
+          "versionMin": "41.78"
+        }
+      ],
+      "name": "Common Sense + Essential Crafting Compatibility Patch",
+      "workshopId": "3256229600"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "UNIMOG_Interior",
+          "name": "UNIMOG_Interior",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "UNIMOG_Interior",
+      "workshopId": "2844263100"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SLDarkerSnow",
+          "name": "Snow Lands - Darker Snow",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Snow Lands - Darker Snow",
+      "workshopId": "3371613588"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SPNRetextureZombiesUnder",
+          "name": "Spongie's Character Retexture - Zombie Underwear",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "SPNRetexture",
+          "name": "Spongie's Character Retexture - Nude",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        },
+        {
+          "enabled": true,
+          "id": "SPNRetextureCustom",
+          "name": "Spongie's Character Retexture - Character Customisation Addon",
+          "pzversion": "2",
+          "requires": [
+            "SpnCharCustom"
+          ],
+          "versionMin": "42.13.1"
+        },
+        {
+          "enabled": true,
+          "id": "SPNRetextureUnderwear",
+          "name": "Spongie's Character Retexture - Underwear",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "3"
+        },
+        {
+          "enabled": true,
+          "id": "SPNRetextureZombie",
+          "name": "Spongie's Character Retexture - Zombie Nude",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "4"
+        },
+        {
+          "enabled": true,
+          "id": "SPNRetextureZombies",
+          "name": "Spongie's Character Retexture - Zombie Nude",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "5"
+        },
+        {
+          "enabled": true,
+          "id": "SPNRetextureZombieUnderwear",
+          "name": "Spongie's Character Retexture - Zombie Underwear",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "6"
+        }
+      ],
+      "name": "Spongie's Character Retexture - Zombie Underwear",
+      "workshopId": "3340255334"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TombGothHair",
+          "name": "Tomb's Goth Hair",
+          "pzversion": "0",
+          "requires": [
+            "FH"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "TombGothMakeup",
+          "name": "Tomb's Goth Makeup",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        },
+        {
+          "enabled": true,
+          "id": "TombGothTex",
+          "name": "Tomb's Player Body - Goth Textures",
+          "pzversion": "2",
+          "requires": [
+            "TombBodyTex"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "TombGothTexDOLL",
+          "name": "Tomb's Player Body - Goth Textures [DOLL]",
+          "pzversion": "3",
+          "requires": [
+            "TombBodyTexDOLL"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "TombGothTexNUDE",
+          "name": "Tomb's Player Body - Goth Textures [NUDE]",
+          "pzversion": "4",
+          "requires": [
+            "TombBodyTexNUDE"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Tomb's Goth Hair",
+      "workshopId": "3531765630"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "88chevyS10Rusty",
+          "name": "'88 Chevrolet S10 - Rust edition",
+          "pzversion": "0",
+          "requires": [
+            "damnlib",
+            "88chevyS10"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "'88 Chevrolet S10 - Rust edition",
+      "workshopId": "3658499522"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ClientModsToServer",
+          "name": "Better Server Settings",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Better Server Settings",
+      "workshopId": "2756434288"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "NoVanillaVehicles",
+          "name": "No Vanilla Vehicles",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "NoVanillaDuplicates",
+          "name": "No Vanilla Vehicles (No duplicate KI5 & Filibuster Vehicles)",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        },
+        {
+          "enabled": true,
+          "id": "NoVanillaProf",
+          "name": "No Vanilla Vehicles - Profession Vans",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "2"
+        },
+        {
+          "enabled": true,
+          "id": "NoVanillaStoriesKI5+Filibuster",
+          "name": "No Vanilla Vehicles - Stories (KI5+Filibuster)",
+          "pzversion": "42",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        },
+        {
+          "enabled": true,
+          "id": "NoVanillaStoriesKI5",
+          "name": "No Vanilla Vehicles - Stories (KI5)",
+          "pzversion": "42",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "No Vanilla Vehicles",
+      "workshopId": "2535461640"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SEG_Animalsdonotthump",
+          "name": "[B42.13]Animals do not attack buildings",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "[B42.13]Animals do not attack buildings",
+      "workshopId": "3635189378"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "AliceGear",
+          "name": "ALICE Gear",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "ALICE Gear",
+      "workshopId": "3610005735"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "GanydeBielovzki's Frockin Shirts n Ties",
+          "name": "Frockin Shirts & Ties",
+          "pzversion": "41,42",
+          "requires": [
+            "41,42"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Frockin Shirts & Ties",
+      "workshopId": "3453676250"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "GanydeBielovzki's Frockin Splendor! Vol.3",
+          "name": "Frockin Splendor! Vol.3",
+          "pzversion": "42",
+          "requires": [
+            "GanydeBielovzki's Frockin Splendor! Vol.2"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Frockin Splendor! Vol.3",
+      "workshopId": "3431256608"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "GanydeBielovzki's Frockin Splendor! Vol.4",
+          "name": "Frockin Splendor! Vol.4",
+          "pzversion": "42",
+          "requires": [
+            "GanydeBielovzki's Frockin Splendor! Vol.2"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Frockin Splendor! Vol.4",
+      "workshopId": "3475347500"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "GanydeBielovzki's Frockin Splendor! Vol.5",
+          "name": "Frockin Splendor! Vol.5",
+          "pzversion": "41",
+          "requires": [
+            "GanydeBielovzki's Frockin Splendor! Vol.2"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "Frockin Splendor! Vol.5",
+      "workshopId": "3635394848"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "GanydeBielovzki's Frockin Wiseguys",
+          "name": "Frockin Wiseguys!",
+          "pzversion": "41,42",
+          "requires": [
+            "GanydeBielovzki's Frockin Splendor! Vol.2"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Frockin Wiseguys!",
+      "workshopId": "3538760023"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "newclothesmodels",
+          "name": "New Clothing Models",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "New Clothing Models",
+      "workshopId": "3657694399"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TombWardrobeALTVanilla",
+          "name": "Tomb's Wardrobe - Alternative [VANILLA]",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "TombWardrobeALT",
+          "name": "Tomb's Wardrobe - Alternative",
+          "pzversion": "1",
+          "requires": [
+            "TombBody"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Tomb's Wardrobe - Alternative [VANILLA]",
+      "workshopId": "3616536783"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "VanillaGearExpanded",
+          "name": "Vanilla Gear Expanded",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Vanilla Gear Expanded",
+      "workshopId": "3401134276"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "zReApoPonchosB42",
+          "name": "zRe Apo Ponchos B42",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "zRe Apo Ponchos B42",
+      "workshopId": "3471936625"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "GanydeBielovzki's Frockin Splendor!",
+          "name": "Frockin Splendor!",
+          "pzversion": "41,42",
+          "requires": [
+            "41,42"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Frockin Splendor!",
+      "workshopId": "3307376332"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "DBFaster50",
+          "name": "[B42] Drag Bodies Faster 50%",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "DBFaster60",
+          "name": "[B42] Drag Bodies Faster 60%",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        },
+        {
+          "enabled": true,
+          "id": "DBFaster70",
+          "name": "[B42] Drag Bodies Faster 70%",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "2"
+        },
+        {
+          "enabled": true,
+          "id": "DBFaster80",
+          "name": "[B42] Drag Bodies Faster 80%",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "3"
+        }
+      ],
+      "name": "[B42] Drag Bodies Faster 50%",
+      "workshopId": "3393821407"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Energy Drinks ZreApo B42.13+",
+          "name": "Energy Drinks ZreApo B42.13+",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Energy Drinks ZreApo B42.13+",
+      "workshopId": "3651223969"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SpnHair",
+          "name": "Spongie's Hair",
+          "pzversion": "0",
+          "requires": [
+            "FH"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Spongie's Hair",
+      "workshopId": "2463184726"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "truemusic_mixtape_megapack",
+          "name": "True Music: Mixtape Megapack B41",
+          "pzversion": "0",
+          "requires": [
+            "truemusic"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "True Music: Mixtape Megapack B42",
+      "workshopId": "3068955583"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "NamedSkillVHSTapes",
+          "name": "Named Skill VHS Tapes",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Named Skill VHS Tapes",
+      "workshopId": "2732294885"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "animeshader",
+          "name": "Anime Shader",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Anime Shader",
+      "workshopId": "3301347278"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "AnimeTV",
+          "name": "AnimeTV",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "40.00"
+        },
+        {
+          "enabled": true,
+          "id": "AnimeTVVisualOnly",
+          "name": "AnimeTV Visual Only",
+          "pzversion": "1",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "40.00"
+        }
+      ],
+      "name": "AnimeTV",
+      "workshopId": "2847406722"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ProjectVarietyChapterOne",
+          "name": "Project Variety Ch.1",
+          "pzversion": "0",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "Project Variety Ch.1",
+      "workshopId": "3659182538"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "CADropVehiclePartsOnFloor",
+          "name": "Drop Vehicle Parts On Floor",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.0.0"
+        }
+      ],
+      "name": "Drop Vehicle Parts On Floor",
+      "workshopId": "3659357119"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "fhqMotoriusZoneRVInt",
+          "name": "fhqwhgads' Motorious Zone Vehicle Pack - RV Interior Support",
+          "pzversion": "0",
+          "requires": [
+            "RV_Interior_MP",
+            "fhqMotoriusZone"
+          ],
+          "versionMin": "41.60"
+        }
+      ],
+      "name": "fhqwhgads' Motorious Zone Vehicle Pack - RV Interior Support",
+      "workshopId": "3014569316"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Butchers_Dream",
+          "name": "Butchers Dream",
+          "pzversion": "42",
+          "requires": [
+            "42"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Butchers Dream",
+      "workshopId": "3663204629"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SaucedTrolleys",
+          "name": "SaucedTrolleys - Custom Carts",
+          "pzversion": "0",
+          "requires": [
+            "SaucedCarts"
+          ],
+          "versionMin": "42.13.1"
+        }
+      ],
+      "name": "SaucedTrolleys - Custom Carts",
+      "workshopId": "3653487630"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SkillTapes",
+          "name": "VHS SkillTapes",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "VHS SkillTapes",
+      "workshopId": "2702055974"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "HerbalMedicinePlus",
+          "name": "Herbal Medicine Plus",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Herbal Medicine Plus",
+      "workshopId": "2891494114"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Pogo's Clothes",
+          "name": "Pogo's Clothing Collection",
+          "pzversion": "41,42",
+          "requires": [
+            "41,42"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Pogo's Clothing Collection",
+      "workshopId": "3058134369"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "lamePlayerTexture",
+          "name": "A lame player retexture",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "A lame player retexture",
+      "workshopId": "2735761868"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "JSTRALL1",
+          "name": "Jester's Combined Pack",
+          "pzversion": "0",
+          "requires": [
+            "NepEasyDistro"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Jester's Combined Pack",
+      "workshopId": "3663694274"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ReactiveSE",
+          "name": "Reactive Sound Events",
+          "pzversion": "0",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "Reactive Sound Events",
+      "workshopId": "3656190498"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "LifestyleHobbies",
+          "name": "Lifestyle: Hobbies",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Lifestyle: Hobbies",
+      "workshopId": "3403870858"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "UnseasonalWeather",
+          "name": "Unseasonal Weather",
+          "pzversion": "0",
+          "requires": [
+            "42.0.0"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "Unseasonal Weather",
+      "workshopId": "3582891045"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "buildinggenpowermp",
+          "name": "Generator Powered Buildings Multiplayer",
+          "pzversion": "0",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        },
+        {
+          "enabled": true,
+          "id": "buildinggenpower",
+          "name": "Generator Powered Buildings Singleplayer",
+          "pzversion": "1",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "Generator Powered Buildings Multiplayer",
+      "workshopId": "3597471949"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Military_Tool_Kit",
+          "name": "Military Tool Kit",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Military Tool Kit",
+      "workshopId": "2705406713"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "BCR",
+          "name": "Body Count Rewards",
+          "pzversion": "0",
+          "requires": [
+            "42.13.2"
+          ],
+          "versionMin": "42.13.2"
+        }
+      ],
+      "name": "Body Count Rewards",
+      "workshopId": "3660382016"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "CleanUI",
+          "name": "CleanUI",
+          "pzversion": "0",
+          "requires": [
+            "NeatUI_Framework"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "CleanUI",
+      "workshopId": "3437629766"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "MPBugFixesCombined42",
+          "name": "MP Bug Fixes Combined 42",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "MP Bug Fixes Combined 42",
+      "workshopId": "3644104501"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TMRRemoveMumble42",
+          "name": "True Music Radio Remove Mumble",
+          "pzversion": "0",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        },
+        {
+          "enabled": true,
+          "id": "TrueMusicRadio42",
+          "name": "True Music Radio",
+          "pzversion": "1",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "True Music Radio Remove Mumble",
+      "workshopId": "3631572046"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "twisttrapping",
+          "name": "TwisTonFire - Better Trapping",
+          "pzversion": "0",
+          "requires": [
+            "42.12.1"
+          ],
+          "versionMin": "42.13"
+        },
+        {
+          "enabled": true,
+          "id": "twisttrappingvanilla",
+          "name": "TwisTonFire - Better Vanilla Trapping",
+          "pzversion": "1",
+          "requires": [
+            "42.12.1"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "TwisTonFire - Better Trapping",
+      "workshopId": "3573232324"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SmartRadialMenu",
+          "name": "Smart Radial Menu",
+          "pzversion": "0",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        },
+        {
+          "enabled": true,
+          "id": "SmartRadialMenu4212",
+          "name": "Smart Radial Menu (for 42.12 Saves)",
+          "pzversion": "1",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "42.0"
+        }
+      ],
+      "name": "Smart Radial Menu",
+      "workshopId": "3494108029"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Neat_Building_AddonXP",
+          "name": "Neat Building \u2013 XP & Mod Display",
+          "pzversion": "0",
+          "requires": [
+            "Neat_Building"
+          ],
+          "versionMin": "42.14"
+        },
+        {
+          "addedAutomatically": true,
+          "enabled": true,
+          "id": "Neat_Crafting_AddonXP",
+          "name": "Neat Crafting \u2013 XP & Mod Display [Legacy 42.12]",
+          "pzversion": "0",
+          "requires": [
+            "Neat_Crafting"
+          ],
+          "versionMin": "42.12"
+        }
+      ],
+      "name": "Neat Building \u2013 XP & Mod Display [Legacy 42.12]",
+      "workshopId": "3540503606"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "KITTYOWO",
+          "name": "Pawject Meowboid",
+          "pzversion": "0",
+          "requires": [
+            "Animal_Essentials"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Pawject Meowboid",
+      "workshopId": "3640592525"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TM_ZAMN",
+          "name": "Zombies Ate My Neighbors - B42.31+",
+          "pzversion": "0",
+          "requires": [
+            "TrueMoozic"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "Zombies Ate My Neighbors - B42.31+",
+      "workshopId": "3655089193"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "WayMoreCars",
+          "name": "More Car Features + Spawn Zones Expansion",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "More Car Features + Spawn Zones Expansion",
+      "workshopId": "3520758551"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TVRadio_ReInvented",
+          "name": "TVRadio ReInvented",
+          "pzversion": "41",
+          "requires": [
+            "42.2.0"
+          ],
+          "versionMin": "41.78.16"
+        }
+      ],
+      "name": "TVRadio ReInvented",
+      "workshopId": "3671361467"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "CleanHotBar",
+          "name": "CleanHotBar",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "CleanHotBar",
+      "workshopId": "3461263912"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "GenRange",
+          "name": "Generator Range",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Generator Range",
+      "workshopId": "2972289937"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "Kaldo_RadioFrequencyManagerB42",
+          "name": "Radio Frequency Manager [B42]",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "42.0"
+        }
+      ],
+      "name": "Radio Frequency Manager [B42]",
+      "workshopId": "3659543622"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "containertagsb42",
+          "name": "Container Tags [B42.14.1]",
+          "pzversion": "0",
+          "requires": [
+            "42.14.1"
+          ],
+          "versionMin": "42.14.1"
+        }
+      ],
+      "name": "Container Tags [B42.14.1]",
+      "workshopId": "3670220111"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "InvMatrix",
+          "name": "Inventory Matrix",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        },
+        {
+          "enabled": true,
+          "id": "InvMatrix_KnownAndCollectedPatch",
+          "name": "Inventory Matrix - Compatibility Patch for Known And Collected",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        }
+      ],
+      "name": "Inventory Matrix",
+      "workshopId": "3633135798"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "BanditsCreator",
+          "name": "Bandits Creator",
+          "pzversion": "0",
+          "requires": [
+            "Bandits2"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Bandits Creator",
+      "workshopId": "3469292499"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "EURY_BUGS",
+          "name": "Multiplayer Bug Fixes",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Multiplayer Bug Fixes",
+      "workshopId": "3627047348"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ModManager",
+          "name": "[B42] Mod Manager",
+          "pzversion": "0",
+          "requires": [
+            "ModLoadOrderSorter_b42"
+          ],
+          "versionMin": "42.12.0"
+        }
+      ],
+      "name": "[B42] Mod Manager",
+      "workshopId": "3567084868"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "RealisticDash",
+          "name": "Realistic Dashboard and Gauges",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "41.0"
+        }
+      ],
+      "name": "Realistic Dashboard and Gauges",
+      "workshopId": "3635591071"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TheShortcut",
+          "name": "TheShortcut",
+          "pzversion": "0",
+          "requires": [
+            "NeatUI_Framework"
+          ],
+          "versionMin": "42.0.2"
+        }
+      ],
+      "name": "TheShortcut",
+      "workshopId": "3470659758"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "EURY_COOKINGUI",
+          "name": "Better Cooking",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Better Cooking",
+      "workshopId": "3609351095"
+    },
+    {
+      "mods": [
+        {
+          "addedAutomaticallyReason": "0",
+          "enabled": true,
+          "id": "KATTAJ1_Military",
+          "name": "KATTAJ1 Military Pack",
+          "pzversion": "42.13",
+          "requires": [
+            "KATTAJ1_ClothesCore"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "KATTAJ1 Military Pack",
+      "workshopId": "3470426196"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TrueActionsDancing",
+          "name": "True Actions Dancing",
+          "pzversion": "0",
+          "requires": [
+            "42.13.2"
+          ],
+          "versionMin": "42.13.2"
+        }
+      ],
+      "name": "True Actions Dancing",
+      "workshopId": "3650071729"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "KnownAndCollected42.13.2patch",
+          "name": "Known And Collected 42.13.2+ patch",
+          "pzversion": "0",
+          "requires": [
+            "KnownAndCollected"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Known And Collected 42.13.2+ patch",
+      "workshopId": "3659110625"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "EURY_CLOTHINGINFO",
+          "name": "Better Clothing Info",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Better Clothing Info",
+      "workshopId": "3604080281"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ModernStatus",
+          "name": "ModernStatus",
+          "pzversion": "0",
+          "requires": [
+            "NeatUI_Framework"
+          ],
+          "versionMin": "42.13.0"
+        }
+      ],
+      "name": "ModernStatus",
+      "workshopId": "3451167732"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "MoreDescriptionForTraits4213",
+          "name": "More Description for Traits [42.13]",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "More Description for Traits [42.13]",
+      "workshopId": "3623919908"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "NepWreckWorkingCars",
+          "name": "Nepenthe's Dismantle Any Car",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Nepenthe's Dismantle Any Car",
+      "workshopId": "3428369137"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SmarterStorage",
+          "name": "Smarter Storage",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Smarter Storage",
+      "workshopId": "3290232938"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "TakeAnyAmount",
+          "name": "TakeAnyAmount",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "TakeAnyAmount",
+      "workshopId": "3389115640"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "errorMagnifier",
+          "name": "errorMagnifier",
+          "pzversion": "0",
+          "requires": [
+            "ChuckleberryFinnAlertSystem"
+          ],
+          "versionMin": "42.0"
+        }
+      ],
+      "name": "errorMagnifier",
+      "workshopId": "2896041179"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "SpnHairAPI",
+          "name": "Spongie's Hairstyle Unlocker",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Spongie's Hairstyle Unlocker",
+      "workshopId": "3041733782"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "ItemRarityUI",
+          "name": "Item Rarity UI",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Item Rarity UI",
+      "workshopId": "3662387304"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "mapcursorcord",
+          "name": "Map Coordinates Location Cursor Tooltip [B41/B42]",
+          "pzversion": "0",
+          "requires": [
+            "42.0"
+          ],
+          "versionMin": "42.0"
+        }
+      ],
+      "name": "Map Coordinates Location Cursor Tooltip [B41/B42]",
+      "workshopId": "3248403661"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "MinimalSidebar",
+          "name": "Minimal Sidebar (Auto Hide)",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "0"
+        }
+      ],
+      "name": "Minimal Sidebar (Auto Hide)",
+      "workshopId": "3642084851"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "WorkshopUpdateCheck",
+          "name": "Workshop Update Check",
+          "pzversion": "0",
+          "requires": [
+            "42.13"
+          ],
+          "versionMin": "42.13"
+        }
+      ],
+      "name": "Workshop Update Check",
+      "workshopId": "3628835042"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "2920899878/ReloadAllMagazines",
+          "name": "0",
+          "requires": [
+            "0"
+          ]
+        },
+        {
+          "enabled": true,
+          "id": "ReloadAllMagazines",
+          "name": "Reload All Magazines",
+          "requires": [
+            "0"
+          ],
+          "versionMin": "1"
+        }
+      ],
+      "name": "2920899878/ReloadAllMagazines",
+      "workshopId": "2920899878"
+    },
+    {
+      "mods": [
+        {
+          "enabled": true,
+          "id": "HellDrinxEssentials",
+          "name": "HellDrinx - Essentials",
+          "pzversion": "0",
+          "requires": [
+            "42.13.2"
+          ],
+          "versionMin": "42.13.2"
+        }
+      ],
+      "name": "HellDrinx - Essentials",
+      "workshopId": "3667630656"
+    }
+  ],
+  "notes": [
+    "This registry is the canonical source of truth for enabled mods, load ordering, dependency overrides, and conflict declarations.",
+    "mods.txt is treated as an import-only feed: on each initializer run, mods.txt is reconciled into this registry, then mods.txt may be rewritten/cleaned to contain only items that were not imported (or emptied if fully imported), depending on initializer policy.",
+    "Workshop items may contain multiple Mod IDs. The initializer should scan each downloaded workshop item for mod.info files to discover all provided Mod IDs.",
+    "If a required Mod ID is missing, SteamCMD can only install it if there is a known mapping to a Workshop ID. Maintain these mappings over time under overrides.modIdToWorkshopId."
+  ],
+  "overrides": {
+    "conflicts": {},
+    "loadAfter": {},
+    "loadBefore": {},
+    "modIdToWorkshopId": {},
+    "requires": {}
+  },
+  "resolution": {
+    "cleanup": {
+      "keptWorkshopItemIds": [
+        "1962761540",
+        "2335368829",
+        "2409333430",
+        "2447729538",
+        "2463184726",
+        "2478247379",
+        "2535461640",
+        "2566953935",
+        "2584112711",
+        "2625625421",
+        "2642541073",
+        "2661819460",
+        "2664866820",
+        "2684285534",
+        "2699828474",
+        "2702055974",
+        "2705406713",
+        "2732294885",
+        "2735761868",
+        "2756434288",
+        "2772575623",
+        "2791656602",
+        "2799152995",
+        "2805630347",
+        "2811383142",
+        "2812326159",
+        "2831786301",
+        "2840805724",
+        "2844263100",
+        "2846036306",
+        "2847406722",
+        "2870394916",
+        "2873290424",
+        "2875848298",
+        "2881764317",
+        "2886832257",
+        "2886832936",
+        "2886833398",
+        "2890748284",
+        "2891494114",
+        "2896041179",
+        "2897390033",
+        "2900580391",
+        "2903127760",
+        "2909936075",
+        "2913633066",
+        "2920899878",
+        "2932547723",
+        "2932549988",
+        "2934132344",
+        "2937786633",
+        "2939187818",
+        "2942793445",
+        "2944344655",
+        "2950608437",
+        "2952802178",
+        "2962175696",
+        "2963057869",
+        "2963467990",
+        "2963883586",
+        "2969343830",
+        "2970858855",
+        "2971246021",
+        "2972289937",
+        "2991201484",
+        "3001592312",
+        "3005903549",
+        "3008795514",
+        "3014569316",
+        "3026723485",
+        "3034636011",
+        "3037854728",
+        "3041122351",
+        "3041733782",
+        "3044705007",
+        "3046728955",
+        "3052360250",
+        "3058134369",
+        "3068955583",
+        "3073430075",
+        "3077900375",
+        "3088951320",
+        "3110911330",
+        "3110913021",
+        "3152529790",
+        "3161951724",
+        "3171167894",
+        "3196180339",
+        "3206579556",
+        "3213391371",
+        "3226885926",
+        "3248388837",
+        "3248403661",
+        "3253385114",
+        "3256229600",
+        "3258343790",
+        "3268487204",
+        "3276134387",
+        "3287727378",
+        "3290232938",
+        "3292659291",
+        "3299457564",
+        "3301347278",
+        "3303746488",
+        "3307376332",
+        "3309971624",
+        "3315302991",
+        "3315443103",
+        "3320947974",
+        "3322631319",
+        "3330403100",
+        "3340255334",
+        "3346506593",
+        "3346905070",
+        "3363546437",
+        "3366300557",
+        "3369825662",
+        "3371613588",
+        "3378285185",
+        "3378304610",
+        "3379334330",
+        "3387462212",
+        "3388468313",
+        "3389115640",
+        "3393821407",
+        "3401134276",
+        "3403870858",
+        "3404737883",
+        "3406622334",
+        "3408186716",
+        "3409143790",
+        "3409287192",
+        "3411888105",
+        "3413150945",
+        "3413237147",
+        "3413704851",
+        "3413706334",
+        "3414634809",
+        "3418252689",
+        "3418253716",
+        "3418352842",
+        "3420478458",
+        "3422418897",
+        "3423660713",
+        "3423725989",
+        "3428008364",
+        "3428369137",
+        "3429790870",
+        "3431256608",
+        "3435796523",
+        "3436499337",
+        "3437629766",
+        "3443982326",
+        "3447272250",
+        "3451167732",
+        "3452711271",
+        "3453676250",
+        "3454414190",
+        "3457132019",
+        "3457364806",
+        "3457969588",
+        "3461263912",
+        "3465040406",
+        "3469292499",
+        "3470422050",
+        "3470426196",
+        "3470659758",
+        "3471936625",
+        "3475347500",
+        "3478633453",
+        "3484263516",
+        "3486814612",
+        "3487312010",
+        "3490188370",
+        "3490370700",
+        "3494108029",
+        "3497172953",
+        "3501800585",
+        "3502080466",
+        "3504401781",
+        "3508537032",
+        "3520758551",
+        "3521263771",
+        "3531765630",
+        "3536052310",
+        "3538760023",
+        "3539632193",
+        "3539691958",
+        "3540503606",
+        "3540903327",
+        "3543229299",
+        "3554424111",
+        "3557515648",
+        "3566868353",
+        "3567084868",
+        "3570973322",
+        "3573232324",
+        "3577903007",
+        "3580819781",
+        "3582891045",
+        "3585472912",
+        "3588624649",
+        "3589560764",
+        "3592777775",
+        "3596903773",
+        "3597471949",
+        "3601417745",
+        "3602388131",
+        "3604080281",
+        "3606927986",
+        "3609351095",
+        "3610005735",
+        "3614034284",
+        "3614959302",
+        "3615422211",
+        "3615832618",
+        "3616192072",
+        "3616381828",
+        "3616536783",
+        "3618427553",
+        "3618557184",
+        "3622163276",
+        "3623919908",
+        "3624308198",
+        "3624971238",
+        "3625933422",
+        "3626823538",
+        "3627047348",
+        "3628835042",
+        "3629464135",
+        "3630525533",
+        "3630693325",
+        "3631572046",
+        "3631989559",
+        "3632444452",
+        "3632610172",
+        "3633135798",
+        "3633882960",
+        "3635189378",
+        "3635333613",
+        "3635394848",
+        "3635591071",
+        "3636964628",
+        "3640592525",
+        "3640602763",
+        "3640806810",
+        "3641027178",
+        "3641584634",
+        "3642084851",
+        "3642935062",
+        "3644104501",
+        "3644794945",
+        "3646787580",
+        "3646815505",
+        "3647039527",
+        "3647735736",
+        "3647736504",
+        "3648051123",
+        "3650071729",
+        "3650112103",
+        "3650168851",
+        "3651223969",
+        "3651576948",
+        "3651954650",
+        "3652371248",
+        "3653487630",
+        "3653913180",
+        "3654107996",
+        "3654929003",
+        "3655089193",
+        "3655233584",
+        "3655692755",
+        "3656054533",
+        "3656190498",
+        "3656507478",
+        "3657325209",
+        "3657694399",
+        "3658100636",
+        "3658499522",
+        "3659110625",
+        "3659182538",
+        "3659357119",
+        "3659543622",
+        "3659676359",
+        "3660382016",
+        "3660401764",
+        "3662387304",
+        "3663204629",
+        "3663694274",
+        "3664310933",
+        "3666137359",
+        "3666180085",
+        "3667630656",
+        "3670063857",
+        "3670220111",
+        "3671361467"
+      ],
+      "manifestPruned": true,
+      "missingWorkshopItemIds": [],
+      "prunedWorkshopItemIds": [],
+      "warnings": [
+        "Workshop content root does not exist: /home/steam/project-zomboid-dedicated/steamapps/workshop/content/108600"
+      ]
+    },
+    "lastRun": {
+      "conflicts": [],
+      "cycles": [],
+      "enabledModIdsOrdered": [
+        "damnlib",
+        "KATTAJ1_ClothesCore",
+        "NeatUI_Framework",
+        "Video_Game_Consoles",
+        "TrueMoozic",
+        "SpnCharCustom",
+        "GanydeBielovzki's Frockin Splendor! Vol.2",
+        "vac_mod_b42_utils",
+        "DynamicTradingCommon",
+        "SPNCC",
+        "YAPZLib",
+        "Karas Zone Selector API",
+        "FH",
+        "tikitown_tiles",
+        "StarlitLibrary",
+        "Bandits2",
+        "SaucedCarts",
+        "Animal_Essentials",
+        "SpnCharCustomDetails",
+        "SPNCCDetails",
+        "BB_CommonSense",
+        "Neat_Crafting",
+        "Project_Cook",
+        "Neat_Building",
+        "KnownAndCollected",
+        "ChuckleberryFinnAlertSystem",
+        "Erikas_Tiles",
+        "AccCamos",
+        "ModLoadOrderSorter_b42",
+        "EssentialCrafting",
+        "NepEasyDistro",
+        "TombBody",
+        "TombBodyTex",
+        "TombBodyTexDOLL",
+        "TombBodyTexNUDE",
+        "Roccos_Tiles",
+        "fhqMotoriusZone",
+        "78amgeneralM35A2",
+        "86fordE150",
+        "fhqMotoriousZone",
+        "PROJECTRVInterior42",
+        "69mini",
+        "tikitown",
+        "Atlanta",
+        "59meteor",
+        "73fordFalcon",
+        "82jeepJ10",
+        "83amgeneralM923",
+        "88chevyS10",
+        "82firebird",
+        "85chevyStepVan",
+        "92amgeneralM998",
+        "81deloreanDMC12",
+        "92jeepYJ",
+        "93chevySuburban",
+        "KI5trailers",
+        "RaccoonCityB42",
+        "AuthenticZBackpacks+",
+        "Authentic Z - Current",
+        "AuthenticZLite",
+        "TikitownPower",
+        "TT_PowerPlant",
+        "93fordElgin",
+        "VMZ",
+        "VMZNEW",
+        "Atlanta - Safe Zone-Chinese Survivors\u2019 Community",
+        "04vwTouran",
+        "ECTO1",
+        "65banshee",
+        "66pontiacLeMans",
+        "68firebird",
+        "69camaro",
+        "69charger",
+        "70barracuda",
+        "70dodge",
+        "70roadRunner",
+        "73fordFalconPS",
+        "78amgeneralM35A2extra",
+        "78amgeneralM49A2C",
+        "78amgeneralM50A3",
+        "78amgeneralM62",
+        "80manKat1",
+        "82jeepJ10t",
+        "83amgeneralM923extra",
+        "84buickElectra",
+        "84cadillacDeVille",
+        "84jeepXJ",
+        "84oldsmobile98",
+        "87fordB700",
+        "87toyotaMR2",
+        "88toyotaHilux",
+        "89fordBronco",
+        "91fordRanger",
+        "91nissan240sx",
+        "91range",
+        "93mustangSSP",
+        "93townCar",
+        "amclub",
+        "pzkJesterVan",
+        "dawn_town",
+        "82firebirdKITT",
+        "85chevyStepVanexpanded",
+        "89defender",
+        "92amgeneralM998extra",
+        "92nissanGTR",
+        "95impreza",
+        "isg85countach",
+        "AnruisiTown",
+        "Erikas_Furniture_Store",
+        "Greenleaf B42 version",
+        "Maplewood",
+        "49powerWagon",
+        "63beetle",
+        "63Type2Van",
+        "67commando",
+        "67gt500",
+        "69mini_ItalianJob",
+        "69mini_MrBean",
+        "69mini_PitbullSpecial",
+        "75grandPrix",
+        "76chevyKseries",
+        "77firebird",
+        "81deloreanDMC12BTTF",
+        "82porsche911",
+        "84merc",
+        "85buickLeSabre",
+        "85chevyCaprice",
+        "85oldsmobileDelta88",
+        "85pontiacParisienne",
+        "86chevyCUCV",
+        "86fordE150dnd",
+        "86fordE150expanded",
+        "86fordE150mm",
+        "86fordE150pd",
+        "86oshkoshP19A",
+        "87buickRegal",
+        "87chevySuburban",
+        "89dodgeCaravan",
+        "89trooper",
+        "89volvo200",
+        "90bmwE30",
+        "90fordF350ambulance",
+        "90pierceArrow",
+        "91fordLTD",
+        "91geoMetro",
+        "92fordCVPI",
+        "92jeepYJJP18",
+        "93chevySuburbanExpanded",
+        "93fordF350",
+        "93fordTaurus",
+        "96lancerEVO",
+        "97bushmaster",
+        "98stagea",
+        "99fordCVPI",
+        "RVInteriorExpansion",
+        "RVmilitaryaddon",
+        "FordCrownVictoriacolor",
+        "Nissan240SX",
+        "nissantestcolor",
+        "RVInteriorExpansionPart2",
+        "70fordEscort",
+        "fhqMotoriousZoneImports",
+        "fhqMotoriusZoneImports",
+        "fhqMotoriousZoneExotics",
+        "fhqMotoriusZoneExotics",
+        "fhqMotoriousZoneRealNames",
+        "fhqMotoriusZoneRealNames",
+        "fhqMotoriousZoneUSDM",
+        "fhqMotoriusZoneUSDM",
+        "beek_muldraugh_firedept",
+        "Estate 39",
+        "Fort Waterfront B42",
+        "Louisville_Quarantine_Zone",
+        "Louisville_River_Marina",
+        "Louisville_Riverboat",
+        "RavenCreekB42",
+        "UncleRedsBunkerRedux",
+        "Uncleredsbunkerb42",
+        "isoContainers",
+        "lockMartM577",
+        "randomairdropsASVOD",
+        "vac_playing_utils",
+        "H_E_C_U",
+        "SimpleOverhaulTraitsAndOccupations",
+        "MoreDamagedObjects",
+        "RebalancedPropMoving",
+        "Ahu'sToolWeapon42.13",
+        "Ahu'sToolWeapon",
+        "Ahu'sToolWeaponNoTraits",
+        "HereGoesTheSun",
+        "InjuredZombiesStumble",
+        "RadioBrasil",
+        "SapphCooking_B42",
+        "ThumpingAttractsZombies",
+        "OpenAllContainers",
+        "SnackTime89",
+        "CustomizableWeightMultiplierContinued",
+        "CustomSync",
+        "PumpsHavePropaneMP",
+        "StorageWorks",
+        "B42Horticulture",
+        "B42PackMule",
+        "SpecLoot",
+        "HardTrapping",
+        "RepairableWindows",
+        "esc_player_craft_history_fix",
+        "extendedBatteryLife",
+        "FixBlowTorchPropaneTank",
+        "ProximityInventory4213",
+        "[J&G] Firefighter Uniform",
+        "PompCollectibles",
+        "SpnCloth",
+        "SpnOpenCloth",
+        "LinkinParkGreatestHits2012",
+        "TM_Metallica",
+        "TMItemMPSyncFix",
+        "TMMMB42.13+",
+        "ReplaceBandage",
+        "EntertainYourself",
+        "ImmersiveHunting",
+        "ImmersiveHunting10YL",
+        "CeilingsB42",
+        "FixedLightOnBeltAF",
+        "MoreMapsB42Fixed",
+        "UnclearRipAllButton",
+        "vac_mod_b42_22",
+        "vac_mod_b42_4",
+        "[J&G] Black Multicam Uniform",
+        "[J&G] British DPM Uniform",
+        "[J&G] Caution Pack",
+        "[J&G] Neon Vandals Uniform",
+        "[J&G] SWAT Uniform",
+        "[J&G] Trauma Responder Uniform",
+        "CYBERDOGTEMPLATE",
+        "[J&G] Alpine Multicam Uniform",
+        "[J&G] Desert Multicam Uniform",
+        "[J&G] Flecktarn Uniform",
+        "[J&G] Forest Multicam Uniform",
+        "[J&G] MARPAT Camo Uniform",
+        "[J&G] XKU Uniform",
+        "VanillaFoodsExpanded",
+        "ZWatchSlots",
+        "FoodPreservationPlus",
+        "OCsPacking",
+        "DynamicMining",
+        "darkerMap",
+        "CargoTrailer_BubbysVariants",
+        "Fallout Hummer by Papa_Chad",
+        "FordExcursion2005PapaChad",
+        "U.S. M998 Humvee by Papa_Chad",
+        "AccCamosPeriodPack",
+        "ArmoredVests",
+        "ArmoredVestsPatch",
+        "BlueMoonLightingMod",
+        "FasterHoodOpening",
+        "StopJumpingOffStairs",
+        "UseItemsWhileWalkingB42",
+        "TwoWeaponsB",
+        "42GunReloadFix",
+        "BetterFlashlightsFixed",
+        "VGC_Addon_GameBoyGames",
+        "VGC_Addon_NESGames",
+        "VGC_Addon_SEGAGames",
+        "VGC_Addon_SNESGames",
+        "VGC_Addon_SNESGames2",
+        "PzkAnimeQoL",
+        "PzkAnimeShader",
+        "PzkAnimeWater",
+        "PzkAnimeSkins",
+        "PzkAnimeSkinsNSFW",
+        "CSECCompatibilityPatch",
+        "UNIMOG_Interior",
+        "SLDarkerSnow",
+        "SPNRetextureZombiesUnder",
+        "SPNRetexture",
+        "SPNRetextureCustom",
+        "SPNRetextureUnderwear",
+        "SPNRetextureZombie",
+        "SPNRetextureZombies",
+        "SPNRetextureZombieUnderwear",
+        "TombBodyCustom",
+        "TombGothHair",
+        "TombGothMakeup",
+        "TombGothTex",
+        "TombGothTexDOLL",
+        "TombGothTexNUDE",
+        "88chevyS10Rusty",
+        "ClientModsToServer",
+        "NoVanillaVehicles",
+        "NoVanillaDuplicates",
+        "NoVanillaProf",
+        "NoVanillaStoriesKI5+Filibuster",
+        "NoVanillaStoriesKI5",
+        "SEG_Animalsdonotthump",
+        "AliceGear",
+        "GanydeBielovzki's Frockin Shirts n Ties",
+        "GanydeBielovzki's Frockin Splendor! Vol.3",
+        "GanydeBielovzki's Frockin Splendor! Vol.4",
+        "GanydeBielovzki's Frockin Splendor! Vol.5",
+        "GanydeBielovzki's Frockin Wiseguys",
+        "newclothesmodels",
+        "TombWardrobeALTVanilla",
+        "TombWardrobeALT",
+        "VanillaGearExpanded",
+        "zReApoPonchosB42",
+        "GanydeBielovzki's Frockin Splendor!",
+        "DBFaster50",
+        "DBFaster60",
+        "DBFaster70",
+        "DBFaster80",
+        "Energy Drinks ZreApo B42.13+",
+        "SpnHair",
+        "truemusic_mixtape_megapack",
+        "NamedSkillVHSTapes",
+        "animeshader",
+        "AnimeTV",
+        "AnimeTVVisualOnly",
+        "ProjectVarietyChapterOne",
+        "CADropVehiclePartsOnFloor",
+        "fhqMotoriusZoneRVInt",
+        "Butchers_Dream",
+        "SaucedTrolleys",
+        "SkillTapes",
+        "HerbalMedicinePlus",
+        "Pogo's Clothes",
+        "lamePlayerTexture",
+        "JSTRALL1",
+        "DynamicTradingV2",
+        "DynamicTrading",
+        "ReactiveSE",
+        "LifestyleHobbies",
+        "TMMumble",
+        "UnseasonalWeather",
+        "buildinggenpowermp",
+        "buildinggenpower",
+        "Military_Tool_Kit",
+        "BCR",
+        "CleanUI",
+        "MPBugFixesCombined42",
+        "TMRRemoveMumble42",
+        "TrueMusicRadio42",
+        "twisttrapping",
+        "twisttrappingvanilla",
+        "SmartRadialMenu",
+        "SmartRadialMenu4212",
+        "SPNCCFaces",
+        "SpnCharCustomFaces",
+        "SpnCharCustomDetailsHD",
+        "SPNCCDetailsHD",
+        "Neat_Building_AddonXP",
+        "Neat_Crafting_AddonXP",
+        "KITTYOWO",
+        "TM_ZAMN",
+        "WayMoreCars",
+        "TVRadio_ReInvented",
+        "CleanHotBar",
+        "GenRange",
+        "Kaldo_RadioFrequencyManagerB42",
+        "Project_Cook_Pixel_Icon_Pack",
+        "containertagsb42",
+        "InvMatrix",
+        "InvMatrix_KnownAndCollectedPatch",
+        "BanditsCreator",
+        "EURY_BUGS",
+        "ModManager",
+        "RealisticDash",
+        "TheShortcut",
+        "EURY_COOKINGUI",
+        "KATTAJ1_Military",
+        "TrueActionsDancing",
+        "KnownAndCollected42.13.2patch",
+        "hideVanillaReadIcon",
+        "EURY_CLOTHINGINFO",
+        "ModernStatus",
+        "MoreDescriptionForTraits4213",
+        "NepWreckWorkingCars",
+        "SmarterStorage",
+        "TakeAnyAmount",
+        "errorMagnifier",
+        "SpnHairAPI",
+        "ItemRarityUI",
+        "mapcursorcord",
+        "MinimalSidebar",
+        "WorkshopUpdateCheck",
+        "2920899878/ReloadAllMagazines",
+        "ReloadAllMagazines",
+        "HellDrinxEssentials"
+      ],
+      "enabledWorkshopIds": [
+        "3171167894",
+        "3470422050",
+        "3508537032",
+        "2831786301",
+        "3632610172",
+        "3414634809",
+        "3411888105",
+        "3557515648",
+        "3635333613",
+        "3624971238",
+        "3653913180",
+        "2447729538",
+        "3046728955",
+        "3378285185",
+        "3268487204",
+        "3651954650",
+        "3640602763",
+        "2875848298",
+        "3502080466",
+        "3490188370",
+        "3536052310",
+        "2881764317",
+        "3077900375",
+        "3346506593",
+        "3454414190",
+        "3423660713",
+        "2903127760",
+        "3487312010",
+        "3429790870",
+        "3666137359",
+        "2791656602",
+        "2799152995",
+        "2870394916",
+        "3543229299",
+        "2937786633",
+        "3037854728",
+        "3580819781",
+        "2772575623",
+        "3490370700",
+        "2886832257",
+        "2811383142",
+        "2886832936",
+        "3320947974",
+        "3614034284",
+        "2642541073",
+        "3253385114",
+        "3287727378",
+        "3152529790",
+        "3330403100",
+        "3388468313",
+        "2335368829",
+        "2969343830",
+        "3436499337",
+        "3478633453",
+        "3566868353",
+        "3447272250",
+        "3258343790",
+        "2991201484",
+        "3631989559",
+        "2913633066",
+        "2873290424",
+        "3642935062",
+        "3248388837",
+        "3596903773",
+        "3592777775",
+        "3409287192",
+        "3601417745",
+        "3110911330",
+        "3052360250",
+        "3435796523",
+        "2886833398",
+        "3539691958",
+        "3504401781",
+        "2409333430",
+        "3001592312",
+        "2932547723",
+        "3404737883",
+        "3501800585",
+        "3666180085",
+        "3570973322",
+        "2846036306",
+        "3647735736",
+        "3406622334",
+        "3659676359",
+        "3363546437",
+        "3602388131",
+        "3644794945",
+        "2900580391",
+        "3005903549",
+        "3041122351",
+        "2478247379",
+        "3026723485",
+        "3213391371",
+        "3161951724",
+        "3346905070",
+        "3379334330",
+        "2805630347",
+        "3418252689",
+        "3413704851",
+        "3418253716",
+        "3413706334",
+        "3428008364",
+        "2566953935",
+        "3226885926",
+        "3196180339",
+        "3034636011",
+        "2932549988",
+        "3292659291",
+        "3110913021",
+        "2952802178",
+        "2942793445",
+        "3366300557",
+        "3008795514",
+        "2962175696",
+        "3073430075",
+        "3088951320",
+        "3647736504",
+        "2897390033",
+        "3315443103",
+        "2971246021",
+        "3618427553",
+        "3614959302",
+        "2661819460",
+        "2664866820",
+        "3622163276",
+        "3670063857",
+        "3585472912",
+        "3606927986",
+        "3486814612",
+        "2934132344",
+        "2963467990",
+        "2963883586",
+        "3484263516",
+        "3636964628",
+        "2625625421",
+        "3652371248",
+        "3655233584",
+        "3452711271",
+        "2840805724",
+        "3413150945",
+        "2699828474",
+        "3422418897",
+        "3618557184",
+        "3648051123",
+        "3615832618",
+        "3409143790",
+        "3646787580",
+        "3465040406",
+        "3589560764",
+        "3629464135",
+        "3646815505",
+        "3632444452",
+        "3657325209",
+        "3650168851",
+        "3540903327",
+        "3457132019",
+        "2909936075",
+        "3378304610",
+        "3651576948",
+        "3387462212",
+        "3044705007",
+        "3624308198",
+        "3521263771",
+        "3322631319",
+        "2684285534",
+        "2812326159",
+        "3655692755",
+        "3640806810",
+        "3641584634",
+        "3633882960",
+        "2944344655",
+        "2950608437",
+        "2970858855",
+        "3539632193",
+        "3625933422",
+        "3656054533",
+        "3641027178",
+        "3660401764",
+        "3654929003",
+        "3315302991",
+        "3654107996",
+        "3369825662",
+        "3497172953",
+        "3457969588",
+        "3443982326",
+        "3656507478",
+        "3303746488",
+        "3299457564",
+        "3206579556",
+        "3309971624",
+        "3616192072",
+        "3276134387",
+        "3577903007",
+        "3630525533",
+        "2890748284",
+        "3626823538",
+        "2963057869",
+        "2939187818",
+        "3630693325",
+        "3658100636",
+        "3588624649",
+        "3554424111",
+        "1962761540",
+        "3616381828",
+        "2584112711",
+        "3650112103",
+        "3615422211",
+        "3664310933",
+        "3647039527",
+        "3420478458",
+        "3418352842",
+        "3413237147",
+        "3423725989",
+        "3408186716",
+        "3457364806",
+        "3256229600",
+        "2844263100",
+        "3371613588",
+        "3340255334",
+        "3531765630",
+        "3658499522",
+        "2756434288",
+        "2535461640",
+        "3635189378",
+        "3610005735",
+        "3453676250",
+        "3431256608",
+        "3475347500",
+        "3635394848",
+        "3538760023",
+        "3657694399",
+        "3616536783",
+        "3401134276",
+        "3471936625",
+        "3307376332",
+        "3393821407",
+        "3651223969",
+        "2463184726",
+        "3068955583",
+        "2732294885",
+        "3301347278",
+        "2847406722",
+        "3659182538",
+        "3659357119",
+        "3014569316",
+        "3663204629",
+        "3653487630",
+        "2702055974",
+        "2891494114",
+        "3058134369",
+        "2735761868",
+        "3663694274",
+        "3656190498",
+        "3403870858",
+        "3582891045",
+        "3597471949",
+        "2705406713",
+        "3660382016",
+        "3437629766",
+        "3644104501",
+        "3631572046",
+        "3573232324",
+        "3494108029",
+        "3540503606",
+        "3640592525",
+        "3655089193",
+        "3520758551",
+        "3671361467",
+        "3461263912",
+        "2972289937",
+        "3659543622",
+        "3670220111",
+        "3633135798",
+        "3469292499",
+        "3627047348",
+        "3567084868",
+        "3635591071",
+        "3470659758",
+        "3609351095",
+        "3470426196",
+        "3650071729",
+        "3659110625",
+        "3604080281",
+        "3451167732",
+        "3623919908",
+        "3428369137",
+        "3290232938",
+        "3389115640",
+        "2896041179",
+        "3041733782",
+        "3662387304",
+        "3248403661",
+        "3642084851",
+        "3628835042",
+        "2920899878",
+        "3667630656"
+      ],
+      "importedModIds": [],
+      "importedWorkshopIds": [],
+      "installCompletedWorkshopIds": [
+        "3635333613",
+        "3539632193",
+        "3653913180",
+        "3508537032",
+        "2791656602",
+        "3371613588",
+        "2447729538",
+        "3041733782",
+        "3414634809",
+        "3340255334",
+        "3429790870",
+        "3531765630",
+        "3659676359",
+        "3580819781",
+        "2335368829",
+        "3585472912",
+        "3666137359",
+        "3666180085",
+        "3346506593",
+        "3363546437",
+        "3606927986",
+        "3486814612",
+        "3602388131",
+        "2934132344",
+        "2963467990",
+        "2963883586",
+        "3644794945",
+        "3388468313",
+        "3484263516",
+        "3046728955",
+        "3037854728",
+        "3636964628",
+        "3436499337",
+        "3171167894",
+        "3478633453",
+        "2900580391",
+        "2772575623",
+        "3005903549",
+        "3041122351",
+        "3566868353",
+        "3447272250",
+        "2478247379",
+        "3026723485",
+        "3258343790",
+        "2991201484",
+        "3631989559",
+        "2937786633",
+        "2913633066",
+        "2873290424",
+        "3642935062",
+        "3490370700",
+        "3213391371",
+        "3161951724",
+        "3346905070",
+        "2799152995",
+        "3248388837",
+        "3253385114",
+        "3320947974",
+        "2886832257",
+        "3379334330",
+        "2811383142",
+        "3596903773",
+        "3592777775",
+        "3409287192",
+        "2805630347",
+        "3601417745",
+        "3418252689",
+        "3413704851",
+        "3614034284",
+        "3418253716",
+        "3413706334",
+        "3428008364",
+        "2870394916",
+        "2566953935",
+        "3226885926",
+        "3196180339",
+        "3110911330",
+        "3052360250",
+        "2886832936",
+        "3658499522",
+        "3435796523",
+        "3570973322",
+        "3034636011",
+        "2886833398",
+        "2932549988",
+        "3292659291",
+        "3110913021",
+        "2952802178",
+        "2942793445",
+        "3366300557",
+        "3539691958",
+        "3008795514",
+        "3504401781",
+        "2409333430",
+        "2642541073",
+        "2962175696",
+        "3287727378",
+        "2846036306",
+        "3152529790",
+        "2969343830",
+        "3073430075",
+        "3088951320",
+        "3001592312",
+        "2932547723",
+        "3647735736",
+        "3647736504",
+        "2897390033",
+        "3315443103",
+        "2971246021",
+        "3330403100",
+        "3630693325",
+        "3658100636",
+        "3588624649",
+        "3406622334",
+        "2625625421",
+        "3652371248",
+        "2705406713",
+        "3655233584",
+        "3554424111",
+        "2920899878",
+        "3454414190",
+        "3640602763",
+        "1962761540",
+        "3268487204",
+        "3469292499",
+        "3660382016",
+        "3616381828",
+        "3461263912",
+        "3437629766",
+        "2756434288",
+        "3629464135",
+        "3646815505",
+        "3651576948",
+        "3627047348",
+        "3604080281",
+        "3387462212",
+        "2584112711",
+        "3044705007",
+        "3625933422",
+        "2972289937",
+        "3667630656",
+        "3618557184",
+        "3648051123",
+        "3662387304",
+        "3659543622",
+        "3248403661",
+        "3642084851",
+        "3451167732",
+        "3423660713",
+        "3567084868",
+        "3623919908",
+        "3656054533",
+        "3644104501",
+        "3536052310",
+        "3540503606",
+        "3502080466",
+        "3428369137",
+        "2535461640",
+        "3490188370",
+        "3624308198",
+        "3632444452",
+        "3615832618",
+        "3656190498",
+        "3635591071",
+        "3635189378",
+        "3290232938",
+        "3378285185",
+        "3650112103",
+        "3657325209",
+        "3389115640",
+        "3470659758",
+        "3646787580",
+        "3631572046",
+        "3641027178",
+        "3615422211",
+        "3557515648",
+        "3660401764",
+        "3654929003",
+        "3624971238",
+        "3470422050",
+        "3315302991",
+        "3654107996",
+        "3369825662",
+        "3521263771",
+        "3497172953",
+        "3457969588",
+        "3443982326",
+        "3610005735",
+        "3453676250",
+        "3411888105",
+        "3431256608",
+        "3475347500",
+        "3635394848",
+        "3538760023",
+        "3452711271",
+        "3640592525",
+        "3657694399",
+        "3322631319",
+        "2684285534",
+        "2812326159",
+        "3616536783",
+        "3664310933",
+        "3401134276",
+        "3471936625",
+        "3656507478",
+        "3632610172",
+        "3647039527",
+        "3303746488",
+        "3299457564",
+        "3206579556",
+        "3309971624",
+        "3616192072",
+        "3276134387",
+        "3650168851",
+        "3307376332",
+        "3420478458",
+        "3077900375",
+        "3393821407",
+        "3651223969",
+        "2896041179",
+        "3609351095",
+        "3470426196",
+        "3403870858",
+        "3655692755",
+        "3413150945",
+        "3465040406",
+        "2840805724",
+        "3589560764",
+        "2463184726",
+        "3640806810",
+        "3655089193",
+        "3641584634",
+        "3633882960",
+        "3650071729",
+        "3068955583",
+        "3582891045",
+        "3577903007",
+        "2831786301",
+        "3418352842",
+        "3413237147",
+        "3423725989",
+        "3408186716",
+        "3628835042",
+        "3630525533",
+        "2732294885",
+        "3301347278",
+        "2847406722",
+        "3457364806",
+        "3659182538",
+        "3540903327",
+        "3409143790",
+        "3457132019",
+        "3659357119",
+        "3014569316",
+        "3663204629",
+        "3670220111",
+        "2944344655",
+        "3256229600",
+        "2903127760",
+        "2950608437",
+        "3659110625",
+        "2881764317",
+        "2890748284",
+        "3633135798",
+        "3626823538",
+        "3653487630",
+        "3651954650",
+        "2702055974",
+        "2891494114",
+        "2963057869",
+        "2909936075",
+        "2970858855",
+        "3597471949",
+        "3573232324",
+        "2844263100",
+        "3618427553",
+        "3543229299",
+        "3614959302",
+        "3058134369",
+        "2699828474",
+        "3422418897",
+        "3520758551",
+        "3404737883",
+        "3378304610",
+        "2939187818",
+        "3494108029",
+        "2661819460",
+        "2664866820",
+        "2735761868",
+        "3622163276",
+        "2875848298",
+        "3670063857",
+        "3663694274",
+        "3501800585",
+        "3487312010",
+        "3671361467"
+      ],
+      "installFailedWorkshopIds": [],
+      "installPlannedWorkshopIds": [
+        "3635333613",
+        "3539632193",
+        "3653913180",
+        "3508537032",
+        "2791656602",
+        "3371613588",
+        "2447729538",
+        "3041733782",
+        "3414634809",
+        "3340255334",
+        "3429790870",
+        "3531765630",
+        "3659676359",
+        "3580819781",
+        "2335368829",
+        "3585472912",
+        "3666137359",
+        "3666180085",
+        "3346506593",
+        "3363546437",
+        "3606927986",
+        "3486814612",
+        "3602388131",
+        "2934132344",
+        "2963467990",
+        "2963883586",
+        "3644794945",
+        "3388468313",
+        "3484263516",
+        "3046728955",
+        "3037854728",
+        "3636964628",
+        "3436499337",
+        "3171167894",
+        "3478633453",
+        "2900580391",
+        "2772575623",
+        "3005903549",
+        "3041122351",
+        "3566868353",
+        "3447272250",
+        "2478247379",
+        "3026723485",
+        "3258343790",
+        "2991201484",
+        "3631989559",
+        "2937786633",
+        "2913633066",
+        "2873290424",
+        "3642935062",
+        "3490370700",
+        "3213391371",
+        "3161951724",
+        "3346905070",
+        "2799152995",
+        "3248388837",
+        "3253385114",
+        "3320947974",
+        "2886832257",
+        "3379334330",
+        "2811383142",
+        "3596903773",
+        "3592777775",
+        "3409287192",
+        "2805630347",
+        "3601417745",
+        "3418252689",
+        "3413704851",
+        "3614034284",
+        "3418253716",
+        "3413706334",
+        "3428008364",
+        "2870394916",
+        "2566953935",
+        "3226885926",
+        "3196180339",
+        "3110911330",
+        "3052360250",
+        "2886832936",
+        "3658499522",
+        "3435796523",
+        "3570973322",
+        "3034636011",
+        "2886833398",
+        "2932549988",
+        "3292659291",
+        "3110913021",
+        "2952802178",
+        "2942793445",
+        "3366300557",
+        "3539691958",
+        "3008795514",
+        "3504401781",
+        "2409333430",
+        "2642541073",
+        "2962175696",
+        "3287727378",
+        "2846036306",
+        "3152529790",
+        "2969343830",
+        "3073430075",
+        "3088951320",
+        "3001592312",
+        "2932547723",
+        "3647735736",
+        "3647736504",
+        "2897390033",
+        "3315443103",
+        "2971246021",
+        "3330403100",
+        "3630693325",
+        "3658100636",
+        "3588624649",
+        "3406622334",
+        "2625625421",
+        "3652371248",
+        "2705406713",
+        "3655233584",
+        "3554424111",
+        "2920899878",
+        "3454414190",
+        "3640602763",
+        "1962761540",
+        "3268487204",
+        "3469292499",
+        "3660382016",
+        "3616381828",
+        "3461263912",
+        "3437629766",
+        "2756434288",
+        "3629464135",
+        "3646815505",
+        "3651576948",
+        "3627047348",
+        "3604080281",
+        "3387462212",
+        "2584112711",
+        "3044705007",
+        "3625933422",
+        "2972289937",
+        "3667630656",
+        "3618557184",
+        "3648051123",
+        "3662387304",
+        "3659543622",
+        "3248403661",
+        "3642084851",
+        "3451167732",
+        "3423660713",
+        "3567084868",
+        "3623919908",
+        "3656054533",
+        "3644104501",
+        "3536052310",
+        "3540503606",
+        "3502080466",
+        "3428369137",
+        "2535461640",
+        "3490188370",
+        "3624308198",
+        "3632444452",
+        "3615832618",
+        "3656190498",
+        "3635591071",
+        "3635189378",
+        "3290232938",
+        "3378285185",
+        "3650112103",
+        "3657325209",
+        "3389115640",
+        "3470659758",
+        "3646787580",
+        "3631572046",
+        "3641027178",
+        "3615422211",
+        "3557515648",
+        "3660401764",
+        "3654929003",
+        "3624971238",
+        "3470422050",
+        "3315302991",
+        "3654107996",
+        "3369825662",
+        "3521263771",
+        "3497172953",
+        "3457969588",
+        "3443982326",
+        "3610005735",
+        "3453676250",
+        "3411888105",
+        "3431256608",
+        "3475347500",
+        "3635394848",
+        "3538760023",
+        "3452711271",
+        "3640592525",
+        "3657694399",
+        "3322631319",
+        "2684285534",
+        "2812326159",
+        "3616536783",
+        "3664310933",
+        "3401134276",
+        "3471936625",
+        "3656507478",
+        "3632610172",
+        "3647039527",
+        "3303746488",
+        "3299457564",
+        "3206579556",
+        "3309971624",
+        "3616192072",
+        "3276134387",
+        "3650168851",
+        "3307376332",
+        "3420478458",
+        "3077900375",
+        "3393821407",
+        "3651223969",
+        "2896041179",
+        "3609351095",
+        "3470426196",
+        "3403870858",
+        "3655692755",
+        "3413150945",
+        "3465040406",
+        "2840805724",
+        "3589560764",
+        "2463184726",
+        "3640806810",
+        "3655089193",
+        "3641584634",
+        "3633882960",
+        "3650071729",
+        "3068955583",
+        "3582891045",
+        "3577903007",
+        "2831786301",
+        "3418352842",
+        "3413237147",
+        "3423725989",
+        "3408186716",
+        "3628835042",
+        "3630525533",
+        "2732294885",
+        "3301347278",
+        "2847406722",
+        "3457364806",
+        "3659182538",
+        "3540903327",
+        "3409143790",
+        "3457132019",
+        "3659357119",
+        "3014569316",
+        "3663204629",
+        "3670220111",
+        "2944344655",
+        "3256229600",
+        "2903127760",
+        "2950608437",
+        "3659110625",
+        "2881764317",
+        "2890748284",
+        "3633135798",
+        "3626823538",
+        "3653487630",
+        "3651954650",
+        "2702055974",
+        "2891494114",
+        "2963057869",
+        "2909936075",
+        "2970858855",
+        "3597471949",
+        "3573232324",
+        "2844263100",
+        "3618427553",
+        "3543229299",
+        "3614959302",
+        "3058134369",
+        "2699828474",
+        "3422418897",
+        "3520758551",
+        "3404737883",
+        "3378304610",
+        "2939187818",
+        "3494108029",
+        "2661819460",
+        "2664866820",
+        "2735761868",
+        "3622163276",
+        "2875848298",
+        "3670063857",
+        "3663694274",
+        "3501800585",
+        "3487312010",
+        "3671361467"
+      ],
+      "missingModIds": [
+        "0",
+        "41,42",
+        "41.60",
+        "41.78",
+        "42",
+        "42.0",
+        "42.0.0",
+        "42.0.2",
+        "42.00",
+        "42.12",
+        "42.12.0",
+        "42.12.1",
+        "42.13",
+        "42.13.0",
+        "42.13.1",
+        "42.13.2",
+        "42.14.1",
+        "42.2.0",
+        "Diederiks Tile Palooza",
+        "EN_Newburbs",
+        "RV_Interior_MP",
+        "melos_tiles_for_miles_pack",
+        "truemusic",
+        "tsarslib"
+      ],
+      "missingModIdsUnknownWorkshop": [
+        "RV_Interior_MP",
+        "tsarslib"
+      ],
+      "missingWorkshopIds": [],
+      "resolverEngine": "lua",
+      "resolverHints": {
+        "duplicateModProviders": [],
+        "libraryMods": [
+          "damnlib",
+          "KATTAJ1_ClothesCore",
+          "NeatUI_Framework",
+          "Video_Game_Consoles",
+          "TrueMoozic",
+          "SpnCharCustom",
+          "GanydeBielovzki's Frockin Splendor! Vol.2",
+          "vac_mod_b42_utils",
+          "DynamicTradingCommon",
+          "SPNCC",
+          "YAPZLib",
+          "Karas Zone Selector API",
+          "FH",
+          "tikitown_tiles",
+          "StarlitLibrary",
+          "Bandits2",
+          "SaucedCarts",
+          "Animal_Essentials",
+          "SpnCharCustomDetails",
+          "SPNCCDetails",
+          "BB_CommonSense",
+          "Neat_Crafting",
+          "Project_Cook",
+          "Neat_Building",
+          "KnownAndCollected",
+          "ChuckleberryFinnAlertSystem",
+          "Erikas_Tiles",
+          "AccCamos",
+          "ModLoadOrderSorter_b42",
+          "EssentialCrafting",
+          "NepEasyDistro",
+          "TombBody",
+          "TombBodyTex",
+          "TombBodyTexDOLL",
+          "TombBodyTexNUDE",
+          "Roccos_Tiles"
+        ],
+        "resourceProviderMods": [
+          "fhqMotoriusZone",
+          "78amgeneralM35A2",
+          "86fordE150",
+          "fhqMotoriousZone",
+          "PROJECTRVInterior42",
+          "69mini",
+          "tikitown",
+          "Atlanta",
+          "59meteor",
+          "73fordFalcon",
+          "82jeepJ10",
+          "83amgeneralM923",
+          "88chevyS10",
+          "82firebird",
+          "85chevyStepVan",
+          "92amgeneralM998",
+          "81deloreanDMC12",
+          "92jeepYJ",
+          "93chevySuburban",
+          "KI5trailers",
+          "RaccoonCityB42",
+          "AuthenticZBackpacks+",
+          "Authentic Z - Current",
+          "AuthenticZLite",
+          "TikitownPower",
+          "TT_PowerPlant",
+          "93fordElgin",
+          "VMZ",
+          "VMZNEW",
+          "Atlanta - Safe Zone-Chinese Survivors\u2019 Community",
+          "04vwTouran",
+          "ECTO1",
+          "65banshee",
+          "66pontiacLeMans",
+          "68firebird",
+          "69camaro",
+          "69charger",
+          "70barracuda",
+          "70dodge",
+          "70roadRunner",
+          "73fordFalconPS",
+          "78amgeneralM35A2extra",
+          "78amgeneralM49A2C",
+          "78amgeneralM50A3",
+          "78amgeneralM62",
+          "80manKat1",
+          "82jeepJ10t",
+          "83amgeneralM923extra",
+          "84buickElectra",
+          "84cadillacDeVille",
+          "84jeepXJ",
+          "84oldsmobile98",
+          "87fordB700",
+          "87toyotaMR2",
+          "88toyotaHilux",
+          "89fordBronco",
+          "91fordRanger",
+          "91nissan240sx",
+          "91range",
+          "93mustangSSP",
+          "93townCar",
+          "amclub",
+          "pzkJesterVan",
+          "dawn_town",
+          "82firebirdKITT",
+          "85chevyStepVanexpanded",
+          "89defender",
+          "92amgeneralM998extra",
+          "92nissanGTR",
+          "95impreza",
+          "isg85countach",
+          "AnruisiTown",
+          "Erikas_Furniture_Store",
+          "Greenleaf B42 version",
+          "Maplewood",
+          "49powerWagon",
+          "63beetle",
+          "63Type2Van",
+          "67commando",
+          "67gt500",
+          "69mini_ItalianJob",
+          "69mini_MrBean",
+          "69mini_PitbullSpecial",
+          "75grandPrix",
+          "76chevyKseries",
+          "77firebird",
+          "81deloreanDMC12BTTF",
+          "82porsche911",
+          "84merc",
+          "85buickLeSabre",
+          "85chevyCaprice",
+          "85oldsmobileDelta88",
+          "85pontiacParisienne",
+          "86chevyCUCV",
+          "86fordE150dnd",
+          "86fordE150expanded",
+          "86fordE150mm",
+          "86fordE150pd",
+          "86oshkoshP19A",
+          "87buickRegal",
+          "87chevySuburban",
+          "89dodgeCaravan",
+          "89trooper",
+          "89volvo200",
+          "90bmwE30",
+          "90fordF350ambulance",
+          "90pierceArrow",
+          "91fordLTD",
+          "91geoMetro",
+          "92fordCVPI",
+          "92jeepYJJP18",
+          "93chevySuburbanExpanded",
+          "93fordF350",
+          "93fordTaurus",
+          "96lancerEVO",
+          "97bushmaster",
+          "98stagea",
+          "99fordCVPI",
+          "RVInteriorExpansion",
+          "RVmilitaryaddon",
+          "FordCrownVictoriacolor",
+          "Nissan240SX",
+          "nissantestcolor",
+          "RVInteriorExpansionPart2",
+          "70fordEscort",
+          "fhqMotoriousZoneImports",
+          "fhqMotoriusZoneImports",
+          "fhqMotoriousZoneExotics",
+          "fhqMotoriusZoneExotics",
+          "fhqMotoriousZoneRealNames",
+          "fhqMotoriusZoneRealNames",
+          "fhqMotoriousZoneUSDM",
+          "fhqMotoriusZoneUSDM",
+          "beek_muldraugh_firedept",
+          "Estate 39",
+          "Fort Waterfront B42",
+          "Louisville_Quarantine_Zone",
+          "Louisville_River_Marina",
+          "Louisville_Riverboat",
+          "RavenCreekB42",
+          "UncleRedsBunkerRedux",
+          "Uncleredsbunkerb42",
+          "isoContainers",
+          "lockMartM577"
+        ]
+      },
+      "status": "ok"
+    }
+  },
+  "schemaVersion": 1,
+  "sourceOfTruth": "registry",
+  "workshop": {
+    "appId": "108600",
+    "contentRoot": "/home/steam/project-zomboid-dedicated/steamapps/workshop/content/108600"
+  }
+}

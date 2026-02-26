@@ -1,0 +1,9 @@
+RUNTIME RESOLVER PROBE REPORT
+================================================
+workshop items scanned: 304
+mod lua files scanned: 96404
+order anomalies: 0
+runtime edges used: 0
+analysis timeouts: 0
+execute timeouts: 0
+registry auto-added: 0
