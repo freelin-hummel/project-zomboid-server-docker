@@ -1,0 +1,5 @@
+# import-mods.yml is an import-only feed; it may be emptied by resolver after import.
+# Format:
+#   Workshop ID: <id>
+#   Mod ID: <id>   (optional, 0+)
+#   ---
